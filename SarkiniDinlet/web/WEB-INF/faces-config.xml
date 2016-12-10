@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config version="1.2" 
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>home</from-outcome>
+            <to-view-id>/index.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>login</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+    <managed-bean>
+        <managed-bean-name>AuthenticationBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.AuthenticationBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>UserProfileEditBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.UserProfileEditBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>UserProfileViewBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.UserProfileViewBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>SearchBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.SearchBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>UserProfileCreateBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.UserProfileCreateBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>RecordCreateBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.RecordCreateBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>RecordEditBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.RecordEditBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>RecordViewBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.RecordViewBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>HelpBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.HelpBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ArtistProfileViewBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.ArtistProfileViewBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ArtistProfileEditBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.ArtistProfileEditBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ArtistProfileCreateBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.ArtistProfileCreateBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>AlbumViewBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.AlbumViewBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>AlbumEditBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.AlbumEditBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>AlbumCreateBean</managed-bean-name>
+        <managed-bean-class>com.sarkinidinlet.beans.AlbumCreateBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    
+</faces-config>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

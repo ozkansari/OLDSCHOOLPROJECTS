@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------------------------------------
+To run the MyMessenger client
+-----------------------------------------------------------------------------------------------------
+
+	- open "run client.bat" 
+	  ( This .bat file runs program executing java command)
+
+		OR
+	
+	- open "MyMessengerClient.jar" or "MyMessengerClient.bat" inside "dist" folder
+    	  ( This .bat file runs program executing java .jar file command)
+
+-----------------------------------------------------------------------------------------------------
+To run the MyMessenger server
+-----------------------------------------------------------------------------------------------------
+	
+	- open "run server.bat"
+	  ( This .bat file runs program executing java command)
+
+		OR
+	
+	- open "MyMessengerServer.jar" or "MyMessengerServer.bat" inside "dist" folder
+    	  ( This .bat file runs program executing java .jar file command)
+
+
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,27 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.prime.com.tr/ui"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+
+	<h:panelGroup id="n-#{paper.name}" style="display:none;">
+		<h:graphicImage value="#{paper.mainLogo}" style="align:center;" />
+		<p:dataTable id="#{paper.name}ColumnTable" var="column" value="#{columnList}">
+			<p:column>
+				<h:outputText value="#{column.columnist.name}" />
+			</p:column>
+			<p:column>
+				<p:lightBox iframe="true" width="60%" height="70%" opacity="0.6"
+					speed="500" overlayClose="true">
+					<h:outputLink value="#{column.hyperlink}"
+						title="#{column.columnist.nameFullyCapitalized} - #{column.dateTurkishStyleShortDateFormatted}">
+						<h:outputText value="#{column.title}" />
+					</h:outputLink>
+				</p:lightBox>
+			</p:column>
+		</p:dataTable>
+	</h:panelGroup>
+
+</ui:composition>

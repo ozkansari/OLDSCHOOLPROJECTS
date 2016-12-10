@@ -1,0 +1,520 @@
+May 7, 2010 12:13:15 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: 
+May 7, 2010 12:13:15 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 446 ms
+May 7, 2010 12:13:15 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+May 7, 2010 12:13:15 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.14
+12:13:16,264  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.PRETTY_HTML' found, using default value true
+12:13:16,267  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.ALLOW_JAVASCRIPT' found, using default value true
+12:13:16,268  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON' found, using default value false
+12:13:16,268  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.SAVE_FORM_SUBMIT_LINK_IE' found, using default value false
+12:13:16,268  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true
+12:13:16,268  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_VIEWSTATE_ID' found, using default value true
+12:13:16,268  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.STRICT_XHTML_LINKS' found, using default value true
+12:13:16,269  INFO MyfacesConfig:293 - No context init parameter 'org.apache.myfaces.CONFIG_REFRESH_PERIOD' found, using default value 2
+12:13:16,269  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.VIEWSTATE_JAVASCRIPT' found, using default value false
+12:13:16,269  INFO MyfacesConfig:221 - Tomahawk jar not available. Autoscrolling, DetectJavascript, AddResourceClass and CheckExtensionsFilter are disabled now.
+12:13:16,269  INFO MyfacesConfig:237 - Starting up Tomahawk on the MyFaces-JSF-Implementation
+12:13:16,322  INFO FacesConfigurator:293 - Reading standard config META-INF/standard-faces-config.xml
+12:13:16,466  INFO FacesConfigurator:513 - Reading config : jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/faces-config.xml
+12:13:16,477  INFO FacesConfigurator:513 - Reading config : jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/primefaces-1.0.0.jar!/META-INF/faces-config.xml
+12:13:16,492  INFO FacesConfigurator:579 - Reading config /WEB-INF/faces-config.xml
+12:13:16,504  INFO FacesConfigurator:333 - Starting up MyFaces-package : myfaces-api in version : 1.2.6 from path : file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/myfaces-api-1.2.6.jar
+12:13:16,506  INFO FacesConfigurator:333 - Starting up MyFaces-package : myfaces-impl in version : 1.2.6 from path : file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/myfaces-impl-1.2.6.jar
+12:13:16,506  INFO FacesConfigurator:341 - MyFaces-package : tomahawk-sandbox15 not found.
+12:13:16,506  INFO FacesConfigurator:341 - MyFaces-package : tomahawk-sandbox not found.
+12:13:16,506  INFO FacesConfigurator:341 - MyFaces-package : tomahawk not found.
+12:13:16,860  INFO FacesConfigurator:1037 - Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+12:13:16,870  INFO AbstractFacesInitializer:91 - ServletContext '/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/' initialized.
+12:13:16,980  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:13:16,982  INFO QuartzScheduler:219 - Quartz Scheduler v.1.8.0 created.
+12:13:16,984  INFO RAMJobStore:139 - RAMJobStore initialized.
+12:13:16,986  INFO QuartzScheduler:241 - Scheduler meta-data: Quartz Scheduler (v1.8.0) 'MyColumnistScheduler' with instanceId '1'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:13:16,986  INFO StdSchedulerFactory:1266 - Quartz scheduler 'MyColumnistScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+12:13:16,987  INFO StdSchedulerFactory:1270 - Quartz scheduler version: 1.8.0
+12:13:17,005  INFO QuartzScheduler:497 - Scheduler MyColumnistScheduler_$_1 started.
+12:13:17,006  INFO ParseScheduler:59 - parseGroup.dailyParserJob has been scheduled to run at: Fri May 07 13:00:00 PDT 2010 and repeat based on expression: * 00 * * * ? *
+May 7, 2010 12:13:17 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:17 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:4119
+May 7, 2010 12:13:17 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/23  config=null
+May 7, 2010 12:13:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1929 ms
+May 7, 2010 12:13:34 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:35 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+12:13:35,188  INFO DefaultLifecycleProviderFactory:55 - No ExternalContext using fallback LifecycleProvider.
+12:13:35,192  INFO DefaultLifecycleProviderFactory:68 - Using LifecycleProvider org.apache.myfaces.config.annotation.AllAnnotationLifecycleProvider
+May 7, 2010 12:13:35 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: 
+May 7, 2010 12:13:40 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 443 ms
+May 7, 2010 12:13:40 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+May 7, 2010 12:13:40 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.14
+12:13:41,346  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.PRETTY_HTML' found, using default value true
+12:13:41,350  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.ALLOW_JAVASCRIPT' found, using default value true
+12:13:41,350  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_CLEAR_JAVASCRIPT_FOR_BUTTON' found, using default value false
+12:13:41,350  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.SAVE_FORM_SUBMIT_LINK_IE' found, using default value false
+12:13:41,350  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true
+12:13:41,350  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.RENDER_VIEWSTATE_ID' found, using default value true
+12:13:41,351  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.STRICT_XHTML_LINKS' found, using default value true
+12:13:41,351  INFO MyfacesConfig:293 - No context init parameter 'org.apache.myfaces.CONFIG_REFRESH_PERIOD' found, using default value 2
+12:13:41,351  INFO MyfacesConfig:255 - No context init parameter 'org.apache.myfaces.VIEWSTATE_JAVASCRIPT' found, using default value false
+12:13:41,351  INFO MyfacesConfig:221 - Tomahawk jar not available. Autoscrolling, DetectJavascript, AddResourceClass and CheckExtensionsFilter are disabled now.
+12:13:41,351  INFO MyfacesConfig:237 - Starting up Tomahawk on the MyFaces-JSF-Implementation
+12:13:41,409  INFO FacesConfigurator:293 - Reading standard config META-INF/standard-faces-config.xml
+12:13:41,555  INFO FacesConfigurator:513 - Reading config : jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/faces-config.xml
+12:13:41,565  INFO FacesConfigurator:513 - Reading config : jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/primefaces-1.0.0.jar!/META-INF/faces-config.xml
+12:13:41,580  INFO FacesConfigurator:579 - Reading config /WEB-INF/faces-config.xml
+12:13:41,591  INFO FacesConfigurator:333 - Starting up MyFaces-package : myfaces-api in version : 1.2.6 from path : file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/myfaces-api-1.2.6.jar
+12:13:41,592  INFO FacesConfigurator:333 - Starting up MyFaces-package : myfaces-impl in version : 1.2.6 from path : file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/myfaces-impl-1.2.6.jar
+12:13:41,593  INFO FacesConfigurator:341 - MyFaces-package : tomahawk-sandbox15 not found.
+12:13:41,593  INFO FacesConfigurator:341 - MyFaces-package : tomahawk-sandbox not found.
+12:13:41,593  INFO FacesConfigurator:341 - MyFaces-package : tomahawk not found.
+12:13:41,950  INFO FacesConfigurator:1037 - Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+12:13:41,960  INFO AbstractFacesInitializer:91 - ServletContext '/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/' initialized.
+12:13:42,070  INFO SchedulerSignalerImpl:60 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:13:42,072  INFO QuartzScheduler:219 - Quartz Scheduler v.1.8.0 created.
+12:13:42,074  INFO RAMJobStore:139 - RAMJobStore initialized.
+12:13:42,076  INFO QuartzScheduler:241 - Scheduler meta-data: Quartz Scheduler (v1.8.0) 'MyColumnistScheduler' with instanceId '1'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:13:42,076  INFO StdSchedulerFactory:1266 - Quartz scheduler 'MyColumnistScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+12:13:42,076  INFO StdSchedulerFactory:1270 - Quartz scheduler version: 1.8.0
+12:13:42,095  INFO QuartzScheduler:497 - Scheduler MyColumnistScheduler_$_1 started.
+12:13:42,096  INFO ParseScheduler:59 - parseGroup.dailyParserJob has been scheduled to run at: Fri May 07 13:00:00 PDT 2010 and repeat based on expression: * 00 * * * ? *
+May 7, 2010 12:13:42 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-6119
+May 7, 2010 12:13:42 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:4119
+May 7, 2010 12:13:42 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/22  config=null
+May 7, 2010 12:13:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1921 ms
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/jsf-core.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/jsf-html.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/jsf-ui.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/jstl-core.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/jsf-facelets.jar!/META-INF/jstl-fn.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/primefaces-1.0.0.jar!/META-INF/primefaces-i.taglib.xml
+May 7, 2010 12:13:53 PM com.sun.facelets.compiler.TagLibraryConfig loadImplicit
+INFO: Added Library from: jar:file:/usr/local/shared/tomcat/ozkansari2/webapps/ROOT/WEB-INF/lib/primefaces-1.0.0.jar!/META-INF/primefaces-p.taglib.xml
+12:13:53,835  INFO DefaultLifecycleProviderFactory:68 - Using LifecycleProvider org.apache.myfaces.config.annotation.TomcatAnnotationLifecycleProvider
+12:13:53,837  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of org.primefaces.resource.ResourceHolderImpl
+12:13:53,933  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of com.mycolumnist.view.MyColumnistHome
+12:13:53,944  INFO MyColumnistHome:49 - First time Parse
+12:13:53,985  INFO Environment:514 - Hibernate 3.2.4.sp1
+12:13:53,989  INFO Environment:547 - hibernate.properties not found
+12:13:53,991  INFO Environment:681 - Bytecode provider name : cglib
+12:13:53,998  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+12:13:54,060  INFO Configuration:1426 - configuring from resource: /hibernate.cfg.xml
+12:13:54,060  INFO Configuration:1403 - Configuration resource: /hibernate.cfg.xml
+12:13:54,129  INFO Configuration:553 - Reading mappings from resource : com/mycolumnist/model/persistence/entity/Column.hbm.xml
+12:13:54,342  INFO HbmBinder:300 - Mapping class: com.mycolumnist.model.persistence.entity.Column -> column_table
+12:13:54,429  INFO Configuration:553 - Reading mappings from resource : com/mycolumnist/model/persistence/entity/Columnist.hbm.xml
+12:13:54,447  INFO HbmBinder:300 - Mapping class: com.mycolumnist.model.persistence.entity.Columnist -> columnist_table
+12:13:54,451  INFO Configuration:553 - Reading mappings from resource : com/mycolumnist/model/persistence/entity/Newspaper.hbm.xml
+12:13:54,461  INFO HbmBinder:300 - Mapping class: com.mycolumnist.model.persistence.entity.Newspaper -> newspaper_table
+12:13:54,466  INFO Configuration:1541 - Configured SessionFactory: null
+12:13:54,467  INFO HbmBinder:2385 - Mapping collection: com.mycolumnist.model.persistence.entity.Newspaper.columnists -> columnist_table
+12:13:54,477  INFO DriverManagerConnectionProvider:41 - Using Hibernate built-in connection pool (not for production use!)
+12:13:54,478  INFO DriverManagerConnectionProvider:42 - Hibernate connection pool size: 20
+12:13:54,478  INFO DriverManagerConnectionProvider:45 - autocommit mode: false
+12:13:54,488  INFO DriverManagerConnectionProvider:80 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3307/ozkansari2?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+12:13:54,489  INFO DriverManagerConnectionProvider:86 - connection properties: {user=ozkansari2, password=****}
+12:13:54,663  INFO SettingsFactory:89 - RDBMS: MySQL, version: 5.0.77-log
+12:13:54,664  INFO SettingsFactory:90 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.4 ( $Date: 2006-10-19 17:47:48 +0200 (Thu, 19 Oct 2006) $, $Revision: 5908 $ )
+12:13:54,690  INFO Dialect:152 - Using dialect: org.hibernate.dialect.MySQLDialect
+12:13:54,698  INFO TransactionFactoryFactory:34 - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+12:13:54,701  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+12:13:54,702  INFO SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+12:13:54,702  INFO SettingsFactory:147 - Automatic session close at end of transaction: disabled
+12:13:54,702  INFO SettingsFactory:154 - JDBC batch size: 15
+12:13:54,702  INFO SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+12:13:54,704  INFO SettingsFactory:162 - Scrollable result sets: enabled
+12:13:54,704  INFO SettingsFactory:170 - JDBC3 getGeneratedKeys(): enabled
+12:13:54,704  INFO SettingsFactory:178 - Connection release mode: auto
+12:13:54,705  INFO SettingsFactory:202 - Maximum outer join fetch depth: 2
+12:13:54,706  INFO SettingsFactory:205 - Default batch fetch size: 1
+12:13:54,706  INFO SettingsFactory:209 - Generate SQL with comments: disabled
+12:13:54,706  INFO SettingsFactory:213 - Order SQL updates by primary key: disabled
+12:13:54,707  INFO SettingsFactory:217 - Order SQL inserts for batching: disabled
+12:13:54,707  INFO SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+12:13:54,712  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+12:13:54,713  INFO SettingsFactory:225 - Query language substitutions: {}
+12:13:54,713  INFO SettingsFactory:230 - JPA-QL strict compliance: disabled
+12:13:54,713  INFO SettingsFactory:235 - Second-level cache: enabled
+12:13:54,713  INFO SettingsFactory:239 - Query cache: disabled
+12:13:54,714  INFO SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+12:13:54,714  INFO SettingsFactory:254 - Optimize cache for minimal puts: disabled
+12:13:54,714  INFO SettingsFactory:263 - Structured second-level cache entries: disabled
+12:13:54,720  INFO SettingsFactory:290 - Statistics: disabled
+12:13:54,721  INFO SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+12:13:54,721  INFO SettingsFactory:309 - Default entity-mode: pojo
+12:13:54,721  INFO SettingsFactory:313 - Named query checking : enabled
+12:13:54,754  INFO SessionFactoryImpl:161 - building session factory
+12:13:55,100  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+12:13:55,231  INFO ParserVariables:63 - START PARSING Milliyet
+12:13:55,232  INFO ParserVariables:64 - _____________________________________________________________________
+12:13:56,606 DEBUG HtmlPageParserBase:235 - Column [columnId=1, columnistId=1, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/uc-bayrak-uc-milliyetcilik/taha-akyol/siyaset/yazardetay/07.05.2010/1234693/default.htm, sequence=1, summary=, title=Üç bayrak, üç milliyetçilik]
+12:13:56,620 DEBUG HtmlPageParserBase:235 - Column [columnId=2, columnistId=2, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/-onlar-ki-verir-laf-ile-dunyaya-nizamat-bin-turlu-teseyyup-pislik-bulunur-hanelerinde-/cetin-altan/yasam/yazardetay/07.05.2010/1234785/default.htm, sequence=1, summary=, title=“Onlar ki verir laf ile dünyaya nizamat Bin türlü teseyyüp (pislik) bulunur hanelerinde”]
+12:13:56,685 DEBUG HtmlPageParserBase:235 - Column [columnId=3, columnistId=3, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/suleyman-bey-ler/melih-asik/guncel/yazardetay/07.05.2010/1234724/default.htm, sequence=1, summary=, title=Süleyman Bey’ler]
+12:13:56,694 DEBUG HtmlPageParserBase:235 - Column [columnId=4, columnistId=4, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/tutarsiz-elestiriler/fikret-bila/siyaset/yazardetay/07.05.2010/1234691/default.htm, sequence=1, summary=, title=Tutarsız eleştiriler]
+12:13:56,704 DEBUG HtmlPageParserBase:235 - Column [columnId=5, columnistId=5, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/kurt-sorununda-cok-mesafe-alindi-geriye-pkk-kaldi/mehmet-ali-birand/guncel/yazardetay/07.05.2010/1234625/default.htm, sequence=1, summary=, title=Kürt sorununda çok mesafe alındı, geriye PKK kaldı]
+12:13:56,717 DEBUG HtmlPageParserBase:235 - Column [columnId=6, columnistId=6, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/genelkurmay-baskanlarinin-ifade-ozgurlugu-/hasan-cemal/siyaset/yazardetay/07.05.2010/1234735/default.htm, sequence=1, summary=, title=Genelkurmay başkanlarının ifade özgürlüğü...]
+12:13:56,726 DEBUG HtmlPageParserBase:235 - Column [columnId=7, columnistId=7, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/cok-ozel-iki-defter/guneri-civaoglu/siyaset/yazardetay/07.05.2010/1234737/default.htm, sequence=1, summary=, title=Çok özel iki defter]
+12:13:56,741 DEBUG HtmlPageParserBase:235 - Column [columnId=8, columnistId=8, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/meclis-kulisinde-bir-gece-yarisi/can-dundar/guncel/yazardetay/07.05.2010/1234790/default.htm, sequence=1, summary=, title=Meclis kulisinde bir gece yarısı]
+12:13:56,750 DEBUG HtmlPageParserBase:235 - Column [columnId=9, columnistId=9, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://cadde.milliyet.com.tr/2010/05/07/YazarDetay/1234677/damardan-sanat, sequence=1, summary=, title=Damardan sanat]
+12:13:56,759 DEBUG HtmlPageParserBase:235 - Column [columnId=10, columnistId=10, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/-bagimsiz-yargi-tarafsiz-hakimle-olur-/abbas-guclu/turkiye/yazardetay/07.05.2010/1234695/default.htm, sequence=1, summary=, title=“Bağımsız yargı, tarafsız hâkimle olur”]
+12:13:56,768 DEBUG HtmlPageParserBase:235 - Column [columnId=11, columnistId=11, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/sanat-rekorlari/hursit-gunes/ekonomi/yazardetay/07.05.2010/1234717/default.htm, sequence=1, summary=, title=Sanat rekorları]
+12:13:56,776 DEBUG HtmlPageParserBase:235 - Column [columnId=12, columnistId=12, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/yunan-krizi-ve-turkiye/sami-kohen/dunya/yazardetay/07.05.2010/1234739/default.htm, sequence=1, summary=, title=Yunan krizi ve Türkiye]
+12:13:56,785 DEBUG HtmlPageParserBase:235 - Column [columnId=13, columnistId=13, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/buyuk-turk-aldatmacalari-ucuncu-kopru/metin-munir/ekonomi/yazardetay/07.05.2010/1234713/default.htm, sequence=1, summary=, title=Büyük Türk aldatmacaları: Üçüncü köprü]
+12:13:56,797 DEBUG HtmlPageParserBase:235 - Column [columnId=14, columnistId=14, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/kadinin-kadina-ettikleri-/hasan-pulur/yasam/yazardetay/07.05.2010/1234787/default.htm, sequence=1, summary=, title=Kadının kadına ettikleri...]
+12:13:56,805 DEBUG HtmlPageParserBase:235 - Column [columnId=15, columnistId=15, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/uc-fidan/derya-sazak/siyaset/yazardetay/07.05.2010/1234696/default.htm, sequence=1, summary=, title=ÜÇ FİDAN]
+12:13:56,813 DEBUG HtmlPageParserBase:235 - Column [columnId=16, columnistId=16, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/ikinci-ameliyatim-da-bitti-herkes-memnun-ben-durgun-/meral-tamer/ekonomi/yazardetay/07.05.2010/1234788/default.htm, sequence=1, summary=, title=İkinci ameliyatım da bitti herkes memnun ben durgun!]
+12:13:56,832 DEBUG HtmlPageParserBase:235 - Column [columnId=17, columnistId=17, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/sariyayla-saldirisi-akil-almaz-iddialar/mehmet-tezkan/yasam/yazardetay/07.05.2010/1234786/default.htm, sequence=1, summary=, title=SARIYAYLA SALDIRISI AKIL ALMAZ İDDİALAR]
+12:13:56,840 DEBUG HtmlPageParserBase:235 - Column [columnId=18, columnistId=18, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/alis-yargilamalar-diyarinda/riza-turmen/siyaset/yazardetay/07.05.2010/1234765/default.htm, sequence=1, summary=, title=Alis yargılamalar diyarında]
+12:13:56,852 DEBUG HtmlPageParserBase:235 - Column [columnId=19, columnistId=19, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.milliyet.com.tr/ayse-teyze-soruyor-1-dolar-1-euro-olur-mu-olur-/gungor-uras/ekonomi/yazardetay/07.05.2010/1234731/default.htm, sequence=1, summary=, title=Ayşe Teyze soruyor: 1 dolar = 1 euro (Olur mu? Olur!)]
+12:13:56,852  INFO ParserVariables:72 - END PARSING Milliyet
+12:13:56,853  INFO ParserVariables:73 - _____________________________________________________________________
+12:13:56,853  INFO ParserVariables:63 - START PARSING Hürriyet
+12:13:56,853  INFO ParserVariables:64 - _____________________________________________________________________
+12:13:59,340 DEBUG HtmlPageParserBase:235 - Column [columnId=20, columnistId=20, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647693.asp?yazarid=356&gid=61, sequence=1, summary=Eti Tadında reklamlarını hiç izlediniz mi? Açlığı canlandıran, haşarı ve sevimli çizgi film karakterlerinin olduğu reklam filmlerinden söz ediyorum. Reklamın kahramanı Eti Tadındadan ağzına bir tane atıveriyor ve o sevimli yaratık birden minicik hatta daha sevimli bir şeyler oluveriyor. Mutlaka izlemişsinizdir., title=Marka yönetiminde başarının altın anahtarı]
+12:13:59,354 DEBUG HtmlPageParserBase:235 - Column [columnId=21, columnistId=21, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647187.asp?yazarid=39&gid=61, sequence=1, summary=MECLİSte milletvekili pazarları kuruldu..., title=AKPnin yanıtlaması gereken iddialar]
+12:13:59,363 DEBUG HtmlPageParserBase:235 - Column [columnId=22, columnistId=22, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647271.asp?yazarid=10&gid=61, sequence=1, summary=BEN unutmuşum, Mehmet Ömürün bu hafta çıkan Kadehteki Aşk: Şarap adlı kitabında okudum., title=Öküzgüzü'nün şahlanışı]
+12:13:59,372 DEBUG HtmlPageParserBase:235 - Column [columnId=23, columnistId=23, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647217.asp?yazarid=148&gid=61, sequence=1, summary=ANAYASA değişikliği paketinin delinmesine yol açan oylamanın ardından fire listesi çıkarırken yakalanan AKP milletvekili Faruk Koca listeyi neden yaptığını açıklamış: Arkadaşlarımızı fitneden korumak için!, title=Firenin gerçek nedeni açılımdır]
+12:13:59,381 DEBUG HtmlPageParserBase:235 - Column [columnId=24, columnistId=24, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647223.asp?yazarid=308&gid=61, sequence=1, summary=HRANT Dink cinayetinin Büyük Ağabeyi Erhan Tuncel, 24 Ekim 2004 tarihinde Trabzondaki McDonaldsın bombalanması eyleminden sonra polis tarafından bir otomobilde sorgulanışını şöyle anlatıyor:, title=Kemal ve Nedim Türk adaletine feda olsun]
+12:13:59,389 DEBUG HtmlPageParserBase:235 - Column [columnId=25, columnistId=25, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646768.asp?yazarid=91&gid=61, sequence=1, summary=BİR, iki, üç, dört, beş. Eh, idare eder. İyi düşünülmüş bir rakam. Yine de üzülüyorum, keşke daha fazla olsaydı., title=Çek silahı, vur vur inlesin]
+12:13:59,396 DEBUG HtmlPageParserBase:235 - Column [columnId=26, columnistId=26, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647460.asp?yazarid=72&gid=61, sequence=1, summary=Doç. Dr. Yaşar Erjemin Mersinde Göç, Kentleşme ve Sosyal Problemler adlı kitabı bilimsel açıdan önemli ve yeterli bir kitap. Mersinle ilgili ve ilgilenmek zorunda olan birey ve kuruluşlara yol gösterici bir çalışma., title=Mersinli olamayanlar]
+12:13:59,410 DEBUG HtmlPageParserBase:235 - Column [columnId=27, columnistId=27, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646874.asp?yazarid=131&gid=61, sequence=1, summary=YAKINDAN müşahede ettim: Mecliste bizim Latif Demircinin çok hayranı var., title=Meclise ilk kez giden Latife 10 soru sordum]
+12:13:59,419 DEBUG HtmlPageParserBase:235 - Column [columnId=28, columnistId=28, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646869.asp?yazarid=249&gid=61, sequence=1, summary=Başlığın altında gördüğünüz kupür, İstanbul Milli Eğitim Müdürünün imzasıyla, İstanbuldaki tüm ilköğretim okullarına gönderilen resmi bir evrak., title=l£>./(14/2fno]
+12:13:59,427 DEBUG HtmlPageParserBase:235 - Column [columnId=29, columnistId=29, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646748.asp?yazarid=44&gid=61, sequence=1, summary=MÜTEAHHİT Hacı Akpınar, doğum yeri olan Malatyanın Arapgir ilçesinin Yazılı Köyünün Karaoğlan üzümünden şarap üretmeyi kafasına koymuştu., title=Vali, kaçak şarap fabrikası açar mı]
+12:13:59,435 DEBUG HtmlPageParserBase:235 - Column [columnId=30, columnistId=30, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647203.asp?yazarid=42&gid=61, sequence=1, summary=YIL 1960... Nisan ayında Türkiye kaynamaya başlamıştı. DPli milletvekilleri Mazlum Kayalar (Bursa) ve Dr. Baha Akşit (Denizli), toplumda başlatılan hareketin DPye karşı başlatılan bir faaliyet olduğunu söyleyerek, kanundışı olarak tanımladığı bu olaylar hakkında tahkikat başlatılması için Meclise teklif vermişlerdi., title=Sizi ben bile kurtaramam]
+12:13:59,444 DEBUG HtmlPageParserBase:235 - Column [columnId=31, columnistId=31, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646984.asp?yazarid=19&gid=61, sequence=1, summary=GENELKURMAY Başkanının bazı yayın organlarını hain ilan etmesi ile Başbakanın muhalif gazetecileri hedef göstermesi arasında özgürlüklerin kullanımı açısından bir fark var mıdır?, title=İfade özgürlüğünde ayrıntıların önemi]
+12:13:59,452 DEBUG HtmlPageParserBase:235 - Column [columnId=32, columnistId=32, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647280.asp?yazarid=48&gid=61, sequence=1, summary=, title=Latif DEMİRCİ]
+12:13:59,460 DEBUG HtmlPageParserBase:235 - Column [columnId=33, columnistId=33, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646880.asp?yazarid=12&gid=61, sequence=1, summary=Anneler! Bu röportaj sizin şerefinize! 5 dakikanızı ayırın, okuyun. Nevi şahsına münhasır bir profesörle karşı karşıyayız. Yarım Kalan Hayatlar 4 için, Primanın dokunma konulu sergisinde sahne röpü gerçekleş-tirdim onunla. Ve Oleyyy, oleyyy! dedirten şeyler anlattı bana. Tanışmasay-mışım, eksik kalırmışım..., title=Anneler! Çocuğunuza sevgiyle dokunun... Onu içinize sokun...]
+12:13:59,472 DEBUG HtmlPageParserBase:235 - Column [columnId=34, columnistId=34, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14646595.asp?yazarid=332&gid=61, sequence=1, summary=İKİ gün arka arkaya Ahmet Davutoğlunun bölgesel ve küresel vizyonunu anlattım..., title=Cihanda barış, yurtta savaş!]
+12:13:59,480 DEBUG HtmlPageParserBase:235 - Column [columnId=35, columnistId=35, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647298.asp?yazarid=344&gid=61, sequence=1, summary=Senin varlığını en net hatırladığım gün yarım paket Omo'yu gizlice mideme indirdiğim, ağzımdan çıkan köpükler nedeniyle nefes alamadığım, senin de çığlık çığlığa "Evladım ölüyor!" diye bas bas bağrınıp ortalığı birbirine kattığın gündür., title=Annem]
+12:13:59,490  INFO HtmlPageParserBase:262 - Columnist Ertan ACAR    already exists
+12:13:59,506  INFO HtmlPageParserBase:295 - Column Marka yönetiminde başarının altın anahtarı already exists. Updated.
+12:13:59,506 DEBUG HtmlPageParserBase:235 - Column [columnId=20, columnistId=20, date=0012-06-01 00:00:00.0, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647693.asp?yazarid=356&gid=61, sequence=1, summary=Eti Tadında reklamlarını hiç izlediniz mi? Açlığı canlandıran, haşarı ve sevimli çizgi film karakterlerinin olduğu reklam filmlerinden söz ediyorum. Reklamın kahramanı Eti Tadındadan ağzına bir tane atıveriyor ve o sevimli yaratık birden minicik hatta daha sevimli bir şeyler oluveriyor. Mutlaka izlemişsinizdir., title=Marka yönetiminde başarının altın anahtarı]
+12:13:59,516 DEBUG HtmlPageParserBase:235 - Column [columnId=36, columnistId=36, date=Wed Jun 01 12:13:59 PST 12, hyperlink=http://www.hurriyet.com.tr/yazarlar/14647193.asp?yazarid=253&gid=61, sequence=1, summary=BÜTÜN peygamberlerin en belirgin güzelliklerini karakterinde temsil eden Hz. Peygamberin özelliklerini bu yazımızla noktalamış olacağım., title=Peygamberimize ait pratik değerler (III)]
+12:13:59,517  INFO ParserVariables:72 - END PARSING Hürriyet
+12:13:59,517  INFO ParserVariables:73 - _____________________________________________________________________
+12:13:59,517  INFO ParserVariables:63 - START PARSING Zaman
+12:13:59,518  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:02,320 DEBUG HtmlPageParserBase:235 - Column [columnId=37, columnistId=37, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981060&title=hangi-sozler-giybettir, sequence=1, summary=Gıybet, hayatımızın her tarafını kuşatmış öyle bir illet ki, üzerine her gün yazılar yazılsa, konferanslar tertip edilse değer., title=Hangi sözler gıybettir?]
+12:14:02,330 DEBUG HtmlPageParserBase:235 - Column [columnId=38, columnistId=38, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981053&title=mor-salkim-cicegi-acsin-diye, sequence=1, summary=Mor salkım çiçeği açsın diye gürledi gök. Yeryüzü,  soluğunu tutup gökyüzünü dinledi. Kara bulutlar toplandı. Oradan buradan. Bulutlardan yağmur fışkırdı., title=Mor salkım çiçeği açsın diye]
+12:14:02,338 DEBUG HtmlPageParserBase:235 - Column [columnId=39, columnistId=39, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981266&title=umit-boynerin-politburo-aciklamasi, sequence=1, summary=Türkiye Sanayici ve işadamları Derneği Başkanı Ümit Boyner'in Milliyet'e verdiği mülakatı eleştiren yazıma açıklama geldi. Ümit Hanım, yazıma üç sayfalık açıklama ve beş sayfalık iki ek göndermiş. Cevap hakkına saygı gösterecek şekilde ve köşenin boyutlarını gözeterek metni kısaltıp sunuyorum., title=Ümit Boyner'in  politbüro açıklaması]
+12:14:02,348 DEBUG HtmlPageParserBase:235 - Column [columnId=40, columnistId=40, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981273&title=yol-kazasi-hayra-vesile-olabilir, sequence=1, summary=Parti kapatma davası açmayı Meclis iznine bağlayan 8. maddenin 327 oyla paketten düşmesi üzerine o kadar çok senaryo dinledim ki, akla ziyan. Kendinden emin ifadelerle 'Ergenekon türü derin yapıların AK Parti içine dönük operasyonu' diyene de rastladım, 'AK Parti, CHP'nin Anayasa Mahkemesi kozunu elinden almak için bilerek yaptı' diyene de..., title=Yol kazası hayra vesile olabilir...]
+12:14:02,357 DEBUG HtmlPageParserBase:235 - Column [columnId=41, columnistId=41, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981274&title=cumhuriyet-tarihinin-en-onemli-yargi-durusu, sequence=1, summary=On gün sonra, 17 Mayıs 2006'daki Danıştay saldırısının 4. yıldönümü. Geçen yıl dava, Ergenekon davası ile birleştirilmişti. Bu karar, Cumhuriyet tarihinin en önemli yargı duruşudur., title=Cumhuriyet tarihinin en önemli yargı duruşu]
+12:14:02,365 DEBUG HtmlPageParserBase:235 - Column [columnId=42, columnistId=42, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981275&title=ne-fasist-ne-demokrat, sequence=1, summary=İsmet İnönü'nün Hitler'e benzerliği tartışılıyor. Yok, o kadar da değil. Tek parti yönetimi yıllarında bile Türkiye siyasetinde Hitler'e hakikaten benzeyen bir kişi bulunabileceğini sanmıyorum., title=Ne faşist, ne demokrat]
+12:14:02,376 DEBUG HtmlPageParserBase:235 - Column [columnId=43, columnistId=43, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981276&title=memleket-yangininda-ruhunu-isitanlar, sequence=1, summary=Bu ülkeyi yakıp, ateşinde keyifle ısınacak ne çok insan varmış meğer. Üstelik bu yangını çıkaranlar, kaybedecek hiçbir şeyi olmayanlar değil. Öyle olsa hak da verilebilir. Ama kaybedeceklerinin derdinde olanlar ateşi körüklüyor. Ve bunu yaparken kullandıkları değerler ruhlarına hiç oturmuyor., title=Memleket yangınında ruhunu ısıtanlar]
+12:14:02,387 DEBUG HtmlPageParserBase:235 - Column [columnId=44, columnistId=44, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981293&title=avrupa-isiniyor, sequence=1, summary=Uzun süredir tartışılan IMF ve AB'nin Yunanistan'a yardımı, nihayet geçtiğimiz pazar günü netleşti ve AB ülkeleri Yunanistan'a yardım konusunda anlaştı. Buna göre, Yunanistan IMF ve AB'den 110 milyar Avro alacak. Bunun 30 milyarını IMF, 80 milyarını da Avro kullanan ülkeler verecek. Bu ülkeler arasında başı 22,4 milyar Avro'yla Almanya çekiyor. İkinci sırada da 16,8 milyarla Fransa var., title=Avrupa ısınıyor]
+12:14:02,396 DEBUG HtmlPageParserBase:235 - Column [columnId=45, columnistId=45, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://zaman.com.tryazar.do?yazino=981331&title=besiktas-ve-newleyin-secimi, sequence=1, summary=Sezonun olgunlaştığı bir dönemdi ve köşeyi basketbola ayırmıştık. İstim üzerindeki Beşiktaş'ın sezonu şampiyon kapatabilecek potansiyeli üzerinde durduğumuzu hatırlıyorum. Tek yapılması gereken, oyuncuların ödemelerinin düzenli bir şekilde yapılması ve bilhassa yabancı oyuncuların bu konudaki hassasiyetlerinin iyi yönetilmesiydi., title=Beşiktaş ve Newley'in seçimi]
+12:14:02,397  INFO ParserVariables:72 - END PARSING Zaman
+12:14:02,397  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:02,397  INFO ParserVariables:63 - START PARSING Sabah
+12:14:02,398  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:07,335  INFO ParserVariables:72 - END PARSING Sabah
+12:14:07,336  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:07,336  INFO ParserVariables:63 - START PARSING Radikal
+12:14:07,336  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:08,734 DEBUG HtmlPageParserBase:235 - Column [columnId=46, columnistId=46, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995445&amp;Yazar=NUR ÇİNTAY A.&amp;Date=07.05.2010&amp;CategoryID=96, sequence=1, summary=Zincirinde bir sürü halka olan büyük bir markanın 'Müşteri İlişkileri'..., title=Tiryakiler müşteri m...]
+12:14:08,744 DEBUG HtmlPageParserBase:235 - Column [columnId=47, columnistId=47, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995447&amp;Yazar=İSMET BERKAN&amp;Date=07.05.2010&amp;CategoryID=97, sequence=1, summary=Gece yarısını da geçen saatlerde Anayasa değişikliği paketininin tümü ..., title=11 veya 18 Temmuz'da...]
+12:14:08,754 DEBUG HtmlPageParserBase:235 - Column [columnId=48, columnistId=48, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995498&amp;Yazar=CENGİZ ÇANDAR&amp;Date=07.05.2010&amp;CategoryID=97, sequence=1, summary=Önceki gün ABD'nin en etkili gazetelerinden biri olan Wall Street Jour..., title=Kansız Türk iç savaş...]
+12:14:08,765 DEBUG HtmlPageParserBase:235 - Column [columnId=49, columnistId=49, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995505&amp;Yazar=AKİF BEKİ&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Modern demokrasinin beşiği İngiltere'de medya-
+siyaset ilişkilerinin ..., title=Yandaş yahut münafık...]
+12:14:08,775 DEBUG HtmlPageParserBase:235 - Column [columnId=50, columnistId=50, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995492&amp;Yazar=ORAL ÇALIŞLAR&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Anayasa değişikliği sırasında ortaya çıkan gerginlik; AKP hükümetiyle ..., title=Ufuk Uras, BDP, Anay...]
+12:14:08,785 DEBUG HtmlPageParserBase:235 - Column [columnId=51, columnistId=51, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995491&amp;Yazar=HAKKI DEVRİM&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Senin ne haddine derseniz, hak veririm size. Bir muhabire kaleme alage..., title=«Burun gölgesi bıyık...]
+12:14:08,796 DEBUG HtmlPageParserBase:235 - Column [columnId=52, columnistId=52, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995455&amp;Yazar=HASAN CELAL GÜZEL&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Dostoyevski 'nin ünlü 'Cinler' isimli dev eseri Türkçe 'ye ilk defa 'E..., title='Ecinniler'...]
+12:14:08,806 DEBUG HtmlPageParserBase:235 - Column [columnId=53, columnistId=53, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995511&amp;Yazar=HALUK ŞAHİN&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Yunanistan'da ve dünyada pek çok kişi 'Niçin böyle oldu' sorusunu soru..., title=Gazetecilik açığı...]
+12:14:08,817 DEBUG HtmlPageParserBase:235 - Column [columnId=54, columnistId=54, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995512&amp;Yazar=MURAT YETKİN&amp;Date=07.05.2010&amp;CategoryID=98, sequence=1, summary=Meclis'te dünden en çok akılda kalan şey, istisnasız bütün parti sözcü..., title=Asıl mücadele şimdi ...]
+12:14:08,828 DEBUG HtmlPageParserBase:235 - Column [columnId=55, columnistId=55, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995461&amp;Yazar=TÜRKER ALKAN&amp;Date=07.05.2010&amp;CategoryID=99, sequence=1, summary=İnönü'ye saldırmak ne kazandıracak bilmiyorum ama, önce kendilerini el..., title=Uçurumdan aşağıya at...]
+12:14:08,838 DEBUG HtmlPageParserBase:235 - Column [columnId=56, columnistId=56, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995459&amp;Yazar=MEHMET ALİ KIŞLALI&amp;Date=07.05.2010&amp;CategoryID=99, sequence=1, summary=Genelkurmay Başkanı Org. İlker Başbuğ'un, şimdiye dek görmediğim şidde..., title=TSK savunmasız mı?...]
+12:14:08,849 DEBUG HtmlPageParserBase:235 - Column [columnId=57, columnistId=57, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995485&amp;Yazar=UĞUR GÜRSES&amp;Date=07.05.2010&amp;CategoryID=101, sequence=1, summary=Yunanistan'daki krizi 'çözmek' için yaratılan mali yardım paketi, çözm..., title=Adı 'W'!...]
+12:14:08,862 DEBUG HtmlPageParserBase:235 - Column [columnId=58, columnistId=58, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://www.radikal.com.trDefault.aspx?aType=RadikalYazarYazisi&amp;ArticleID=995472&amp;Yazar=EFKAN BUCAK&amp;Date=07.05.2010&amp;CategoryID=103, sequence=1, summary=Bundan yaklaşık bir yıl önce yine bu satırlarda sizlere bir spor kulüb..., title=Yewa, Yewa 1864!...]
+12:14:08,862  INFO ParserVariables:72 - END PARSING Radikal
+12:14:08,863  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:08,863  INFO ParserVariables:63 - START PARSING Posta
+12:14:08,863  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:10,511 DEBUG HtmlPageParserBase:235 - Column [columnId=59, columnistId=59, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/Kurt_sorununda_cok_mesafe_alindi__geriye_PKK_kaldi.htm?ArticleID=28891, sequence=1, summary=, title=Kürt sorununda çok mesafe alındı, geriye PKK kaldı]
+12:14:10,521 DEBUG HtmlPageParserBase:235 - Column [columnId=60, columnistId=60, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/Komsu.htm?ArticleID=28856, sequence=1, summary=, title=Komşu]
+12:14:10,528 DEBUG HtmlPageParserBase:235 - Column [columnId=61, columnistId=61, date=Tue Jun 02 12:14:10 PST 11, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/Komsu_komsu__kendine_gel_.htm?ArticleID=28806, sequence=1, summary=, title=Komşu komşu, kendine gel!]
+12:14:10,535 DEBUG HtmlPageParserBase:235 - Column [columnId=62, columnistId=62, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/yasam/YazarHaberDetay/Birbirinin_kopyasi_kiskanc__teenager_lar.htm?ArticleID=28300, sequence=1, summary=, title=Birbirinin kopyası kıskanç 'teenager'lar]
+12:14:10,543 DEBUG HtmlPageParserBase:235 - Column [columnId=63, columnistId=63, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/SINIR_KARAKOLU.htm?ArticleID=28879, sequence=1, summary=, title=SİNİR KARAKOLU]
+12:14:10,553 DEBUG HtmlPageParserBase:235 - Column [columnId=64, columnistId=64, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/saglik/kadinsagligi/YazarHaberDetay/Hamilelik_efsaneleri.htm?ArticleID=28337, sequence=1, summary=, title=Hamilelik efsaneleri]
+12:14:10,562 DEBUG HtmlPageParserBase:235 - Column [columnId=65, columnistId=65, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/Kasa_Ecevit_in_basina_patladi.htm?ArticleID=28900, sequence=1, summary=, title=Kasa Ecevit'in başına patladı]
+12:14:10,570 DEBUG HtmlPageParserBase:235 - Column [columnId=66, columnistId=66, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/Sicak_bir_yaz_Turkiye_yi_bekliyor.htm?ArticleID=28901, sequence=1, summary=, title=Sıcak bir yaz Türkiye'yi bekliyor]
+12:14:10,579 DEBUG HtmlPageParserBase:235 - Column [columnId=67, columnistId=67, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/ekonomi/isdunyasi/YazarHaberDetay/Euro_nun_sonu_mu_geliyor_.htm?ArticleID=28878, sequence=1, summary=, title=Euro'nun sonu mu geliyor?]
+12:14:10,588 DEBUG HtmlPageParserBase:235 - Column [columnId=68, columnistId=68, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/magazin/tele-magazin/YazarHaberDetay/TRT_de_kim_neden_mutsuz_.htm?ArticleID=28868, sequence=1, summary=, title=TRT'de kim neden mutsuz?]
+12:14:10,595 DEBUG HtmlPageParserBase:235 - Column [columnId=69, columnistId=69, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/ekonomi/uzman-gorusu/YazarHaberDetay/48_yasinizi_dolduracaginiz_2011_de_emekli_olabilirsiniz.htm?ArticleID=28898, sequence=1, summary=, title=48 yaşınızı dolduracağınız 2011'de emekli olabilirsiniz]
+12:14:10,604 DEBUG HtmlPageParserBase:235 - Column [columnId=70, columnistId=70, date=Wed Jun 01 12:14:10 PST 12, hyperlink=http://www.posta.com.tr/ekonomi/uzman-gorusu/YazarHaberDetay/Tedbir_olarak_rapor_alinabilir.htm?ArticleID=28899, sequence=1, summary=, title=Tedbir olarak rapor alınabilir]
+12:14:10,613 DEBUG HtmlPageParserBase:235 - Column [columnId=71, columnistId=71, date=Sat Jun 02 12:14:10 PST 31, hyperlink=http://www.posta.com.tr/turkiye/YazarHaberDetay/Engelliler_engelsizlere_yardim_ediyor.htm?ArticleID=27563, sequence=1, summary=, title=Engelliler engelsizlere yardım ediyor]
+12:14:10,621 DEBUG HtmlPageParserBase:235 - Column [columnId=72, columnistId=72, date=Wed Jun 02 12:14:10 PST 34, hyperlink=http://www.posta.com.tr/saglik/cinselsaglik/YazarHaberDetay/Sayi_ne_ise_yarar_.htm?ArticleID=28075, sequence=1, summary=, title=Sayı ne işe yarar?]
+12:14:10,630 DEBUG HtmlPageParserBase:235 - Column [columnId=73, columnistId=73, date=Fri Jun 01 12:14:10 PST 31, hyperlink=http://www.posta.com.tr/spor/YazarHaberDetay/Rustu_ve_Ibrahim.htm?ArticleID=9251, sequence=1, summary=, title=Rüştü ve İbrahim]
+12:14:10,638 DEBUG HtmlPageParserBase:235 - Column [columnId=74, columnistId=74, date=Mon Jun 02 12:14:10 PST 10, hyperlink=http://www.posta.com.tr/spor/YazarHaberDetay/Sempatik_ikili_Bursa-Kayseri.htm?ArticleID=14102, sequence=1, summary=, title=Sempatik ikili Bursa-Kayseri]
+12:14:10,645 DEBUG HtmlPageParserBase:235 - Column [columnId=75, columnistId=75, date=Sun Jun 02 12:14:10 PST 26, hyperlink=http://www.posta.com.tr/spor/YazarHaberDetay/Laporta_ile_1_dakika.htm?ArticleID=16138, sequence=1, summary=, title=Laporta ile 1 dakika]
+12:14:10,654 DEBUG HtmlPageParserBase:235 - Column [columnId=76, columnistId=76, date=Wed Jun 02 12:14:10 PST 6, hyperlink=http://www.posta.com.tr/spor/diger/YazarHaberDetay/Agla_sevgili_vatanim.htm?ArticleID=28194, sequence=1, summary=, title=Ağla sevgili vatanım]
+12:14:10,661 DEBUG HtmlPageParserBase:235 - Column [columnId=77, columnistId=77, date=Sat Jun 01 12:14:10 PST 9, hyperlink=http://www.posta.com.tr/spor/futbol/YazarHaberDetay/Vural_i_takdimimdir.htm?ArticleID=28502, sequence=1, summary=, title=Vural'ı takdimimdir]
+12:14:10,668 DEBUG HtmlPageParserBase:235 - Column [columnId=78, columnistId=78, date=Tue Jun 02 12:14:10 PST 11, hyperlink=http://www.posta.com.tr/spor/futbol/YazarHaberDetay/Fener_satti.htm?ArticleID=28772, sequence=1, summary=, title=Fener sattı]
+12:14:10,675 DEBUG HtmlPageParserBase:235 - Column [columnId=79, columnistId=79, date=Fri Jun 01 12:14:10 PST 8, hyperlink=http://www.posta.com.tr/siyaset/YazarHaberDetay/1_Mayis_Taksim_Acilimi_ve_Turk_Sendikaciligi.htm?ArticleID=28384, sequence=1, summary=, title=1 Mayıs Taksim Açılımı ve Türk Sendikacılığı]
+12:14:10,682 DEBUG HtmlPageParserBase:235 - Column [columnId=80, columnistId=80, date=Fri Jun 01 12:14:10 PST 25, hyperlink=http://www.posta.com.tr/spor/YazarHaberDetay/Murat_a_yazik_oldu.htm?ArticleID=26810, sequence=1, summary=, title=Murat'a yazık oldu]
+12:14:10,690 DEBUG HtmlPageParserBase:235 - Column [columnId=81, columnistId=81, date=Tue Jun 02 12:14:10 PST 11, hyperlink=http://www.posta.com.tr/spor/futbol/YazarHaberDetay/Trabzon_hak_etti.htm?ArticleID=28771, sequence=1, summary=, title=Trabzon hak etti]
+12:14:10,700 DEBUG HtmlPageParserBase:235 - Column [columnId=82, columnistId=82, date=Sat Jun 01 12:14:10 PST 9, hyperlink=http://www.posta.com.tr/spor/futbol/YazarHaberDetay/Bu__Ses_e_kulak_ver.htm?ArticleID=28507, sequence=1, summary=, title=Bu 'Ses'e kulak ver]
+12:14:10,709 DEBUG HtmlPageParserBase:235 - Column [columnId=83, columnistId=83, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/yasam/yeme-icme/YazarHaberDetay/Ottoman_Antakya-Antep_Mutfagi.htm?ArticleID=28299, sequence=1, summary=, title=Ottoman/Antakya-Antep Mutfağı]
+12:14:10,717 DEBUG HtmlPageParserBase:235 - Column [columnId=84, columnistId=84, date=Sat Jun 01 12:14:10 PST 9, hyperlink=http://www.posta.com.tr/turkiye/YazarHaberDetay/Sinav_tek_mi_olsun_.htm?ArticleID=28508, sequence=1, summary=, title=Sınav tek mi olsun?]
+12:14:10,726 DEBUG HtmlPageParserBase:235 - Column [columnId=85, columnistId=85, date=Mon Jun 02 12:14:10 PST 27, hyperlink=http://www.posta.com.tr/saglik/cinselsaglik/YazarHaberDetay/Kisirliga_bile_neden_olabilir.htm?ArticleID=27206, sequence=1, summary=, title=Kısırlığa bile neden olabilir]
+12:14:10,734 DEBUG HtmlPageParserBase:235 - Column [columnId=86, columnistId=86, date=Tue Jun 01 12:14:10 PST 28, hyperlink=http://www.posta.com.tr/saglik/erkeksagligi/YazarHaberDetay/Dikkat__meni_miktari_azalabilir_.htm?ArticleID=27207, sequence=1, summary=, title=Dikkat, meni miktarı azalabilir!]
+12:14:10,744 DEBUG HtmlPageParserBase:235 - Column [columnId=87, columnistId=87, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/ekonomi/piyasa/YazarHaberDetay/Komsunun_durumu_korkutuyor.htm?ArticleID=28312, sequence=1, summary=, title=Komşunun durumu korkutuyor]
+12:14:10,753 DEBUG HtmlPageParserBase:235 - Column [columnId=88, columnistId=88, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/cumartesipostasi/YazarHaberDetay/Tesekkur_ederim.htm?ArticleID=13777, sequence=1, summary=, title=Teşekkür ederim]
+12:14:10,761 DEBUG HtmlPageParserBase:235 - Column [columnId=89, columnistId=89, date=Wed Jun 01 12:14:10 PST 29, hyperlink=http://www.posta.com.tr/saglik/YazarHaberDetay/Renkli_ufuklar.htm?ArticleID=27356, sequence=1, summary=, title=Renkli ufuklar]
+12:14:10,770 DEBUG HtmlPageParserBase:235 - Column [columnId=90, columnistId=90, date=Tue Jun 02 12:14:10 PST 22, hyperlink=http://www.posta.com.tr/yasam/yeme-icme/YazarHaberDetay/Baharin_keyfini_Fenerbahce_Belvu_Tesisleri_nde_cikarin.htm?ArticleID=26474, sequence=1, summary=, title=Baharın keyfini Fenerbahçe Belvü Tesisleri'nde çıkarın]
+12:14:10,777 DEBUG HtmlPageParserBase:235 - Column [columnId=91, columnistId=91, date=Tue Jun 02 12:14:10 PST 22, hyperlink=http://www.posta.com.tr/yasam/YazarHaberDetay/Mutfakta_neler_oluyor_.htm?ArticleID=26477, sequence=1, summary=, title=Mutfakta neler oluyor?]
+12:14:10,783 DEBUG HtmlPageParserBase:235 - Column [columnId=92, columnistId=92, date=Fri Jun 01 12:14:10 PST 8, hyperlink=http://www.posta.com.tr/saglik/kadinsagligi/YazarHaberDetay/Menopozda_da_genc_ve_dinc_olabilirsiniz_.htm?ArticleID=24717, sequence=1, summary=, title=Menopozda da genç ve dinç olabilirsiniz!]
+12:14:10,792 DEBUG HtmlPageParserBase:235 - Column [columnId=93, columnistId=93, date=Fri Jun 01 12:14:10 PST 8, hyperlink=http://www.posta.com.tr/saglik/beslenme-diyet/YazarHaberDetay/Kilo_verdiren_12_altin_tavsiye.htm?ArticleID=24709, sequence=1, summary=, title=Kilo verdiren 12 altın tavsiye]
+12:14:10,799 DEBUG HtmlPageParserBase:235 - Column [columnId=94, columnistId=94, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/pazarpostasi/YazarHaberDetay/Sabirli_olanlar_basarili_olacak.htm?ArticleID=28289, sequence=1, summary=, title=Sabırlı olanlar başarılı olacak]
+12:14:10,807 DEBUG HtmlPageParserBase:235 - Column [columnId=95, columnistId=95, date=Thu Jun 02 12:14:10 PST 7, hyperlink=http://www.posta.com.tr/yasam/guzellikvebakim/YazarHaberDetay/Nasil_yaslanacaksiniz__ogrenin_.htm?ArticleID=28291, sequence=1, summary=, title=Nasıl yaşlanacaksınız, öğrenin!]
+12:14:10,813 DEBUG HtmlPageParserBase:235 - Column [columnId=96, columnistId=96, date=Wed Jun 02 12:14:10 PST 6, hyperlink=http://www.posta.com.tr/yasam/moda/YazarHaberDetay/Bahriyeli_modasi.htm?ArticleID=28199, sequence=1, summary=, title=Bahriyeli modası]
+12:14:10,814  INFO ParserVariables:72 - END PARSING Posta
+12:14:10,814  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:10,814  INFO ParserVariables:63 - START PARSING Habertürk
+12:14:10,814  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:12,721 ERROR HaberturkColumnistParser:79 - Exception during date parse
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at com.mycolumnist.model.parser.HaberturkColumnistParser.parseDate(HaberturkColumnistParser.java:74)
+	at com.mycolumnist.model.parser.HaberturkColumnistParser.parseUsingXPath(HaberturkColumnistParser.java:32)
+	at com.mycolumnist.model.parser.base.HtmlPageParserBase.startParsingHtmlPage(HtmlPageParserBase.java:123)
+	at com.mycolumnist.model.parser.base.ParserVariables.parseNewspaper(ParserVariables.java:66)
+	at com.mycolumnist.model.parser.base.ParserVariables.parseHaberturkColumnistParser(ParserVariables.java:124)
+	at com.mycolumnist.model.parser.base.ParserVariables.parseAll(ParserVariables.java:86)
+	at com.mycolumnist.view.MyColumnistHome.<init>(MyColumnistHome.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.apache.myfaces.config.annotation.TomcatAnnotationLifecycleProvider.newInstance(TomcatAnnotationLifecycleProvider.java:47)
+	at org.apache.myfaces.config.ManagedBeanBuilder.buildManagedBean(ManagedBeanBuilder.java:84)
+	at org.apache.myfaces.el.unified.resolver.ManagedBeanResolver.createManagedBean(ManagedBeanResolver.java:198)
+	at org.apache.myfaces.el.unified.resolver.ManagedBeanResolver.getValue(ManagedBeanResolver.java:164)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:53)
+	at org.apache.myfaces.el.unified.resolver.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:140)
+	at org.apache.myfaces.el.VariableResolverImpl.resolveVariable(VariableResolverImpl.java:64)
+	at org.apache.myfaces.el.convert.VariableResolverToELResolver.getValue(VariableResolverToELResolver.java:95)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:53)
+	at org.apache.myfaces.el.unified.resolver.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:140)
+	at org.apache.el.parser.AstIdentifier.getValue(AstIdentifier.java:45)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:86)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.facelets.el.TagValueExpression.getValue(TagValueExpression.java:71)
+	at com.sun.facelets.tag.jstl.core.ForEachHandler.apply(ForEachHandler.java:121)
+	at com.sun.facelets.tag.jsf.ComponentHandler.applyNextHandler(ComponentHandler.java:314)
+	at com.sun.facelets.tag.jsf.ComponentHandler.apply(ComponentHandler.java:169)
+	at com.sun.facelets.tag.jsf.ComponentHandler.applyNextHandler(ComponentHandler.java:314)
+	at com.sun.facelets.tag.jsf.ComponentHandler.apply(ComponentHandler.java:169)
+	at com.sun.facelets.tag.jsf.ComponentHandler.applyNextHandler(ComponentHandler.java:314)
+	at com.sun.facelets.tag.jsf.ComponentHandler.apply(ComponentHandler.java:169)
+	at com.sun.facelets.tag.CompositeFaceletHandler.apply(CompositeFaceletHandler.java:47)
+	at com.sun.facelets.tag.jsf.ComponentHandler.applyNextHandler(ComponentHandler.java:314)
+	at com.sun.facelets.tag.jsf.ComponentHandler.apply(ComponentHandler.java:169)
+	at com.sun.facelets.tag.CompositeFaceletHandler.apply(CompositeFaceletHandler.java:47)
+	at com.sun.facelets.tag.ui.DefineHandler.applyDefinition(DefineHandler.java:64)
+	at com.sun.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:131)
+	at com.sun.facelets.impl.DefaultFaceletContext$TemplateManager.apply(DefaultFaceletContext.java:337)
+	at com.sun.facelets.impl.DefaultFaceletContext.includeDefinition(DefaultFaceletContext.java:307)
+	at com.sun.facelets.tag.ui.InsertHandler.apply(InsertHandler.java:68)
+	at com.sun.facelets.tag.CompositeFaceletHandler.apply(CompositeFaceletHandler.java:47)
+	at com.sun.facelets.tag.jsf.core.ViewHandler.apply(ViewHandler.java:109)
+	at com.sun.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:49)
+	at com.sun.facelets.tag.CompositeFaceletHandler.apply(CompositeFaceletHandler.java:47)
+	at com.sun.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:25)
+	at com.sun.facelets.impl.DefaultFacelet.include(DefaultFacelet.java:248)
+	at com.sun.facelets.impl.DefaultFacelet.include(DefaultFacelet.java:294)
+	at com.sun.facelets.impl.DefaultFacelet.include(DefaultFacelet.java:273)
+	at com.sun.facelets.impl.DefaultFaceletContext.includeFacelet(DefaultFaceletContext.java:140)
+	at com.sun.facelets.tag.ui.CompositionHandler.apply(CompositionHandler.java:113)
+	at com.sun.facelets.compiler.NamespaceHandler.apply(NamespaceHandler.java:49)
+	at com.sun.facelets.compiler.EncodingHandler.apply(EncodingHandler.java:25)
+	at com.sun.facelets.impl.DefaultFacelet.apply(DefaultFacelet.java:95)
+	at com.sun.facelets.FaceletViewHandler.buildView(FaceletViewHandler.java:524)
+	at com.sun.facelets.FaceletViewHandler.renderView(FaceletViewHandler.java:567)
+	at org.apache.myfaces.lifecycle.RenderResponseExecutor.execute(RenderResponseExecutor.java:41)
+	at org.apache.myfaces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:140)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:155)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.mycolumnist.filter.UTF8Filter.doFilter(UTF8Filter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:263)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:584)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:619)
+12:14:12,756 DEBUG HtmlPageParserBase:235 - Column [columnId=97, columnistId=97, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/513327-amator-seviciyim-ben, sequence=1, summary=&ldquo;PEK konuşmayacağım. Beni &ouml;yle pek sık g&ouml;remeyeceksiniz&rdquo;  diye yola..., title=Amatör seviciyim ben]
+12:14:12,766 DEBUG HtmlPageParserBase:235 - Column [columnId=98, columnistId=98, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/215157-kanuninin-oykusunu-ataturke-malettiler, sequence=1, summary=Yavuz Donat, &ouml;nceki g&uuml;n, Sabah&rsquo;taki k&ouml;şesinde azıklıklarla ilgili olarak..., title=Kanuni'nin öyküsünü Atatürk'e mâlettiler]
+12:14:12,775 DEBUG HtmlPageParserBase:235 - Column [columnId=99, columnistId=99, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/215537-tehlikenin-farkinda-misiniz, sequence=1, summary=Hayır bilemediniz.  
+  "Şeriat gelecek" falan demeyeceğim.  
+  U&ccedil;akta yanlışlıkla..., title=Tehlikenin farkında mısınız?]
+12:14:12,783 DEBUG HtmlPageParserBase:235 - Column [columnId=100, columnistId=100, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/215536-bu-fatura-agir-oldu, sequence=1, summary=Ge&ccedil;en yıl Ekim ayıydı.  
+ 
+  Otomotiv &uuml;reticileri Ankara'da h&uuml;k&uuml;met ve..., title=Bu fatura ağır oldu]
+12:14:12,792 DEBUG HtmlPageParserBase:235 - Column [columnId=101, columnistId=101, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/513392-cumhurbaskani-abdullah-gul-silahla-hic-kimsenin-varacagi-bir-yer-yoktur, sequence=1, summary=Cumhurbaşkanı&nbsp; Abdullah G&uuml;l, Turgut &Ouml;zal&rsquo;dan sonra, K&uuml;rt sorununun..., title=Cumhurbaşkanı  Abdullah Gül: “Silahla...]
+12:14:12,800 DEBUG HtmlPageParserBase:235 - Column [columnId=102, columnistId=102, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/513127-ovunerek-tarih-yazilmaz, sequence=1, summary=Romalılar Akdeniz&rsquo;e &ldquo;Mare Nostrum&rdquo; (Bizim Deniz) derlerdi...., title=Övünerek tarih yazılmaz]
+12:14:12,808 DEBUG HtmlPageParserBase:235 - Column [columnId=103, columnistId=103, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/512272-cocuklara-neyi-emanet-ediyoruz, sequence=1, summary=Salı g&uuml;nk&uuml; yazıyı 23 Nisan&rsquo;a hasretmiştim ama s&ouml;yleyeceklerimi..., title=Çocuklara neyi emanet ediyoruz?]
+12:14:12,819 DEBUG HtmlPageParserBase:235 - Column [columnId=104, columnistId=104, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/507264-ordu-disiplin-ve-baskomutan, sequence=1, summary=Polemikleri, medyaya yansıyan belgeleri ve hukuki s&uuml;re&ccedil;leri ile &ldquo;Balyoz&rdquo;..., title=Ordu, disiplin ve başkomutan]
+12:14:12,827 DEBUG HtmlPageParserBase:235 - Column [columnId=105, columnistId=105, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/512277-basbakanlik-sistemi-neden-tartisiliyor, sequence=1, summary=Başkanlık sistemine ge&ccedil;ilirse ne değişecektir? T&uuml;rkiye daha iyi mi..., title=Başbakanlık sistemi neden tartışılıyor?]
+12:14:12,835 DEBUG HtmlPageParserBase:235 - Column [columnId=106, columnistId=106, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/511921-ataturkcu-olmak-ne-demek, sequence=1, summary=Yaşım 72 ve bir bilim insanıyım. Hem T&uuml;rkiye&rsquo;de hem de yurt dışında &ouml;ğretim..., title=Atatürkçü olmak ne demek?]
+12:14:12,844 DEBUG HtmlPageParserBase:235 - Column [columnId=107, columnistId=107, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/513125-uc-yuzun-savasi, sequence=1, summary=ATV&rsquo;de yayınlanan &ldquo;Ezel&rdquo;, son zamanların en etkileyici dizilerinden birisidir...., title=Üç yüzün savaşı]
+12:14:12,853 DEBUG HtmlPageParserBase:235 - Column [columnId=108, columnistId=108, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/512725-giselerde-durgun-donem-30-nisan-2-mayis-donemi-gise-analizi, sequence=1, summary=İlk haftasında liderliğe oturan &ldquo;Ejderhanı Nasıl Eğitirsin,&rdquo; vizyondaki 2. haftasında..., title=Gişelerde durgun dönem (30 Nisan-2...]
+12:14:12,863 DEBUG HtmlPageParserBase:235 - Column [columnId=109, columnistId=109, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/512567-tanrilar-oldu-mu, sequence=1, summary=İNSAN, bir değerler varlığı olarak tanımlanır. &Ccedil;oğu zaman bu değerleri savunmak uğruna ağır..., title=Tanrılar öldü mü?]
+12:14:12,872 DEBUG HtmlPageParserBase:235 - Column [columnId=110, columnistId=110, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/512570-siyasi-mevzi-girdabi, sequence=1, summary=MECLİS&rsquo;te devam eden Anayasa g&ouml;r&uuml;şmeleri son d&ouml;nem siyasal yaşamımıza dair..., title=Siyasi mevzi girdabı]
+12:14:12,881 DEBUG HtmlPageParserBase:235 - Column [columnId=111, columnistId=111, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/510613-ellere-var-da-size-yok-mu, sequence=1, summary=Bir arkadaş toplantısı. Yıllardır tanıdığım bir erkek arkadaşımla laflıyoruz. Ben bar..., title=Ellere var da size yok mu?]
+12:14:12,891 DEBUG HtmlPageParserBase:235 - Column [columnId=112, columnistId=112, date=Fri May 07 12:14:12 PDT 2010, hyperlink=http://www.haberturk.com/yazarlar/513346-neden, sequence=1, summary=&Uuml;lkemizde son yıllarda sayısı artan ortak projelerden biri &ldquo;Takiye: Allah..., title=Neden?]
+12:14:12,896  INFO HtmlPageParserBase:262 - Columnist Fatih Enes Ömeroğlu already exists
+12:14:12,902  INFO HtmlPageParserBase:295 - Column Gişelerde durgun dönem (30 Nisan-2... already exists. Updated.
+12:14:12,903 DEBUG HtmlPageParserBase:235 - Column [columnId=108, columnistId=108, date=2010-05-07 00:00:00.0, hyperlink=http://www.haberturk.com/yazarlar/512725-giselerde-durgun-donem-30-nisan-2-mayis-donemi-gise-analizi, sequence=1, summary=İlk haftasında liderliğe oturan &ldquo;Ejderhanı Nasıl Eğitirsin,&rdquo; vizyondaki 2. haftasında..., title=Gişelerde durgun dönem (30 Nisan-2...]
+12:14:12,903  INFO ParserVariables:72 - END PARSING Habertürk
+12:14:12,903  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:12,903  INFO ParserVariables:63 - START PARSING Takvim
+12:14:12,904  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:16,101 DEBUG HtmlPageParserBase:235 - Column [columnId=113, columnistId=113, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/BERENKOC/2010/05/06/kahramanlarim, sequence=1, summary=Çocukluğumdan kalan hatıra defterini okuyorum bazen.
+Leyla gibi sevmenin, Mecnun gibi deli olmanın satırları duruyor..., title=Kahramanlarım]
+12:14:16,108 DEBUG HtmlPageParserBase:235 - Column [columnId=114, columnistId=114, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/Hakki_Yalcin/2010/05/06/6_mayis_1972, sequence=1, summary=Kanlı elleri vardı politikanın, acımasız emirleri.
+Politikacıların, çıngıraklı zehirleri.
+Kirlenmek için kullanıyorlardı..., title=6 mayıs 1972]
+12:14:16,115 DEBUG HtmlPageParserBase:235 - Column [columnId=115, columnistId=115, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/erandac/2010/05/06/zafer_cigligi_atanlar_karalar_bagladi, sequence=1, summary=Başlık mesaj içerir. Manşet gazetenin ruhunu, zihniyetini yansıtır.
+Gazeteler başta barış ve demokrasi olmak üzere..., title=Zafer çığlığı atanlar karalar bağladı]
+12:14:16,121 DEBUG HtmlPageParserBase:235 - Column [columnId=116, columnistId=116, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/aliserbetci/2010/05/06/ogretmenlige_atanmada_yas_siniri_var_mi, sequence=1, summary=Devlet memuru olarak çalışıyorum. 45 yaşındayım. Eğitim fakültesi mezunuyum. Bu yıl KPSS sınavına girip öğretmenliğe..., title=Öğretmenliğe atanmada yaş sınırı var mı?]
+12:14:16,127 DEBUG HtmlPageParserBase:235 - Column [columnId=117, columnistId=117, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/arifverimli/2010/05/06/sevgilim_beni_aldatti, sequence=1, summary=Özel ilişkimde aldatıldım ve yaklaşık 1.5 ay geçmesine rağmen halen hazımsızlık yaşıyorum.Artık 'ben yanacağıma..., title=Sevgilim beni aldattı]
+12:14:16,133 DEBUG HtmlPageParserBase:235 - Column [columnId=118, columnistId=118, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/emin_pazarci/2010/05/06/benim_de_icim_yaniyor, sequence=1, summary=TÜSİAD Başkanı Ümit Boyner, "İçim yanıyor" demiş. Neden içinin yandığını da tek tek sıralamış...
+Söylediklerini..., title=Benim de içim yanıyor]
+12:14:16,143 DEBUG HtmlPageParserBase:235 - Column [columnId=119, columnistId=119, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/Savas_Ay/2010/05/06/cuneyt_cakirla_kahvalti_haberleri, sequence=1, summary=Mtuhteşem finalin hakemi Cüneyt Çakır ve ekibiyle aynı otelde kalıyormuşuz meğer. Maç günü sabahı Grand Urfa Otel'in..., title=Cüneyt Çakır'la 'kahvaltı haberleri']
+12:14:16,149 DEBUG HtmlPageParserBase:235 - Column [columnId=120, columnistId=120, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/cetingulec/2010/05/06/dusen_maddeyi_telafi_arayisi, sequence=1, summary=Önceki gece yarısı.
+TBMM'de iktidar kulisi.
+Parti kapatmaya ilişkin 8. maddenin düşmesiyle bozulan moraller,..., title=Düşen maddeyi telafi arayışı]
+12:14:16,155 DEBUG HtmlPageParserBase:235 - Column [columnId=121, columnistId=121, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/vahapoglu/2010/05/06/sadakat, sequence=1, summary=İlk çıktığı hafta okumaya başlamıştım; kitap hakkındaki yorumumu yazmak ancak bugüne nasip oldu. Şubat ayında Turkuvaz..., title=Sadakat]
+12:14:16,161 DEBUG HtmlPageParserBase:235 - Column [columnId=122, columnistId=122, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/arda_uskan/2010/05/06/ramiz_dayinin_pornosu, sequence=1, summary=Ünlü bir internet sitesinde kocaman bir başlık: "Ramiz dayının oral seks videosu ortaya çıktı! Şok genelev sahnesi!"..., title=Ramiz Dayı'nın pornosu]
+12:14:16,167 DEBUG HtmlPageParserBase:235 - Column [columnId=123, columnistId=123, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/gunen/2010/05/06/trabzonspor_hakkiyla_aldi, sequence=1, summary=*  Trabzonspor sizce dünkü futboluyla kupayı hak etti mi? 
+Kupayı gerçek anlamda isteyen ve hak eden takım kazandı...., title=Trabzonspor hakkıyla aldı]
+12:14:16,170  INFO HtmlPageParserBase:262 - Columnist HAKKI YALÇIN already exists
+12:14:16,174 DEBUG HtmlPageParserBase:235 - Column [columnId=124, columnistId=114, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/Hakki_Yalcin/2010/05/06/butun_masallar_bordo_mavi, sequence=1, summary=Dün Trabzonsporlu futbolcuların gözlerini bağlasanız, bu kupayı yine alırdı. Muhteşem oynadılar, orta sahada bir..., title=Bütün masallar Bordo Mavi]
+12:14:16,181 DEBUG HtmlPageParserBase:235 - Column [columnId=125, columnistId=124, date=Wed Jun 01 12:14:16 PST 12, hyperlink=http://www.takvim.com.tr/Yazarlar/yula/2010/05/06/isteyen_aldi, sequence=1, summary=Öncelikle şunu söyleyelim...
+Kupayı daha çok isteyen Trabzonspor'du ve bunu da başardı.
+Kendilerini tebrik ediyorum...., title=İsteyen aldı]
+12:14:16,182  INFO ParserVariables:72 - END PARSING Takvim
+12:14:16,182  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:16,182  INFO ParserVariables:63 - START PARSING Fanatik
+12:14:16,182  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:17,906 DEBUG HtmlPageParserBase:235 - Column [columnId=126, columnistId=125, date=Sun Jun 02 12:14:17 PST 15, hyperlink=http://fanatik.ekolay.net/Voleybol-Voleybolda-sonradan-pisman-olmamak-icin_6_YazarDetay_171668_40.htm, sequence=1, summary=Voleybol Federasyonu, elbette milli takımları da düşünmek zorunda! Ama bunun yo..., title=Voleybolda sonradan pişman olmamak için]
+12:14:17,914 DEBUG HtmlPageParserBase:235 - Column [columnId=127, columnistId=126, date=Mon Jun 01 12:14:17 PST 16, hyperlink=http://fanatik.ekolay.net/Galatasaray-Bastaki-hesabini-verir_6_YazarDetay_171725_25.htm, sequence=1, summary=Spor ahlakından nasibini almamış bizleri okurken, maç sonrası alemcisi Jo'ya ta..., title=Baştaki hesabını verir...]
+12:14:17,924 DEBUG HtmlPageParserBase:235 - Column [columnId=128, columnistId=127, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Savunma-kaybetti,-ofans-kazandi_6_YazarDetay_175248_115.htm, sequence=1, summary=Futbolumuzun eksiklerini iyi bilen Güneş'in bizlere ve birçok yabancı hocaya ço..., title=Savunma kaybetti, ofans kazandı]
+12:14:17,934 DEBUG HtmlPageParserBase:235 - Column [columnId=129, columnistId=128, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Emekci-Kupasi_6_YazarDetay_175242_7.htm, sequence=1, summary=Final stresini kaldıramayan hayrettir ki, Fenerbahçe oldu., title=Emekçi Kupası]
+12:14:17,943 DEBUG HtmlPageParserBase:235 - Column [columnId=130, columnistId=129, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Trabzon,-Feneri-mahkum-etti_6_YazarDetay_175249_88.htm, sequence=1, summary=Daum gibi teknik direktörlerin Türkiye'de iş yapmasına karşıyım., title=Trabzon, Fener'i mahkum etti!]
+12:14:17,953 DEBUG HtmlPageParserBase:235 - Column [columnId=131, columnistId=130, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Enginle-kupaya_6_YazarDetay_175240_112.htm, sequence=1, summary=Asıl üstünde durulması gereken isim Engin Baytar. Sergilediği performansla Mill..., title=Engin'le kupaya]
+12:14:17,964 DEBUG HtmlPageParserBase:235 - Column [columnId=132, columnistId=131, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Cakir-kontrolu-elinde-tuttu_6_YazarDetay_175229_113.htm, sequence=1, summary=Hakem Cüneyt Çakır oyunu baştan sona kontrolü altında tuttuğu karşılaşmada başa..., title=Çakır kontrolü elinde tuttu]
+12:14:17,972 DEBUG HtmlPageParserBase:235 - Column [columnId=133, columnistId=132, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Hak-eden-kazandi_6_YazarDetay_175231_30.htm, sequence=1, summary=Bundan 26 yıl önce, Haziran ayının on beşinde, Mersin'de İdman Yurdu'nu 2-1 yen..., title=Hak eden kazandı]
+12:14:17,982 DEBUG HtmlPageParserBase:235 - Column [columnId=134, columnistId=133, date=Tue Jun 02 12:14:17 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Hak-edenin-kupasi_6_YazarDetay_175155_1.htm, sequence=1, summary=Fenerbahçeli futbolculara sormak gerek: Madem angarya gibi davranacaktınız, niy..., title=Hak edenin kupası]
+12:14:17,991 DEBUG HtmlPageParserBase:235 - Column [columnId=135, columnistId=134, date=Mon Jun 02 12:14:17 PST 10, hyperlink=http://fanatik.ekolay.net/Besiktas-Feyk-ulan-feyk-(GORAdan)_6_YazarDetay_175043_10.htm, sequence=1, summary='Beşiktaş'ın gerçek sahipleri'nin oylarıyla seçilen yönetim, daha sezon bitmede..., title=Feyk ulan feyk (G.O.R.A.'dan)]
+12:14:18,001 DEBUG HtmlPageParserBase:235 - Column [columnId=136, columnistId=135, date=Mon Jun 02 12:14:17 PST 10, hyperlink=http://fanatik.ekolay.net/Bank-Asya-1Lig-Nefes-nefese_6_YazarDetay_175030_2.htm, sequence=1, summary=Bank Asya'da son düzlüğe girildi, ligin zirvesi de dibi de fena gerildi. Puan p..., title=Nefes nefese!]
+12:14:18,012 DEBUG HtmlPageParserBase:235 - Column [columnId=137, columnistId=136, date=Fri Jun 01 12:14:18 PST 8, hyperlink=http://fanatik.ekolay.net/Besiktas-Sezonun-ozeti_6_YazarDetay_174779_6.htm, sequence=1, summary=Gerçek hedeflerinden uzaklaşmasına rağmen Beşiktaş'ın disiplinli görüntüsü sayg..., title=Sezonun özeti!]
+12:14:18,022 DEBUG HtmlPageParserBase:235 - Column [columnId=138, columnistId=137, date=Mon Jun 02 12:14:18 PST 10, hyperlink=http://fanatik.ekolay.net/Basketbol-Neredesin-Aydin-Ors_6_YazarDetay_175067_16.htm, sequence=1, summary=Aydın Örs'ün, bundan sonra devam etmekle, sonsuza kadar çekilmek arasındaki o k..., title=Neredesin Aydın Örs?]
+12:14:18,030 DEBUG HtmlPageParserBase:235 - Column [columnId=139, columnistId=138, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Panzehir_6_YazarDetay_175228_5.htm, sequence=1, summary=Öğremeyi beceremeyenin de zaten çilesi bitmiyor! Sonucun özeti budur., title=Panzehir!]
+12:14:18,039 DEBUG HtmlPageParserBase:235 - Column [columnId=140, columnistId=139, date=Thu Jun 02 12:14:18 PST 7, hyperlink=http://fanatik.ekolay.net/Fenerbahce-Sampiyonluk-kosusu_6_YazarDetay_174616_9.htm, sequence=1, summary=Fenerbahçe kritik maçlara fırtına gibi girip, maçı erkenden kopartmak istiyor. ..., title=Şampiyonluk koşusu]
+12:14:18,049 DEBUG HtmlPageParserBase:235 - Column [columnId=141, columnistId=140, date=Mon Jun 02 12:14:18 PST 10, hyperlink=http://fanatik.ekolay.net/Galatasaray-Rijkaardin-Servet-kaprisi_6_YazarDetay_175042_111.htm, sequence=1, summary=Gelecek sezonun tarz-ı idaresi Servet kararında gizlidir., title=Rijkaard'ın Servet kaprisi]
+12:14:18,057 DEBUG HtmlPageParserBase:235 - Column [columnId=142, columnistId=141, date=Wed Jun 01 12:14:18 PST 12, hyperlink=http://fanatik.ekolay.net/Fenerbahce-Gurultulu-caresizlik_6_YazarDetay_175342_17.htm, sequence=1, summary=Dün artık dünde kalmalı..., title=Gürültülü çaresizlik]
+12:14:18,065 DEBUG HtmlPageParserBase:235 - Column [columnId=143, columnistId=142, date=Fri Jun 01 12:14:18 PST 8, hyperlink=http://fanatik.ekolay.net/Besiktas-Denizlinin-ayibi_6_YazarDetay_174778_34.htm, sequence=1, summary=UEFA Ligi'ne gitmeyi garantilemişsin. Yani hedef yok, beklenti yok. Seyirci de ..., title=Denizli'nin ayıbı!]
+12:14:18,073 DEBUG HtmlPageParserBase:235 - Column [columnId=144, columnistId=143, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Saklanmislar_6_YazarDetay_175251_14.htm, sequence=1, summary=GAP Arena'da eşit bölünmüş ve kendilerine ayrılmış, tıklım tıklım doldurarak ha..., title=Saklanmışlar!]
+12:14:18,082 DEBUG HtmlPageParserBase:235 - Column [columnId=145, columnistId=144, date=Tue Jun 01 12:14:18 PST 17, hyperlink=http://fanatik.ekolay.net/Besiktas-Besiktasta-secim_6_YazarDetay_163921_116.htm, sequence=1, summary=Beşiktaş tarihinin en kritik dönemeçlerinden biri olan 31 Ocak seçimleri Yıldır..., title=Beşiktaş'ta seçim]
+12:14:18,090 DEBUG HtmlPageParserBase:235 - Column [columnId=146, columnistId=145, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Galatasaray-Adnan-Polat_6_YazarDetay_175163_32.htm, sequence=1, summary=Çok mu temiz bir sezon geçirdik? Ya da Murat Şahin ve İvesa'nın yediği golleri ..., title=Adnan Polat]
+12:14:18,098 DEBUG HtmlPageParserBase:235 - Column [columnId=147, columnistId=146, date=Thu Jun 01 12:14:18 PST 24, hyperlink=http://fanatik.ekolay.net/Derbi-Ozel--FB-BJK-Fenerbahce-ilk-yarida_6_YazarDetay_172849_33.htm, sequence=1, summary=Alex mükemmel bir futbol ustası. Keyfi yerindeyse eline kimse su dökemez. Ustan..., title=Fenerbahçe ilk yarıda]
+12:14:18,106 DEBUG HtmlPageParserBase:235 - Column [columnId=148, columnistId=147, date=Sat Jun 02 12:14:18 PST 31, hyperlink=http://fanatik.ekolay.net/Besiktas-Buyuk-takimda-oynamak_6_YazarDetay_173720_26.htm, sequence=1, summary=Nihat, İbrahim Kaş ve Serdar... Gidip sorun, Şifo Mehmet'e, Ertuğrul'a, Oktay'a..., title=Büyük takımda oynamak]
+12:14:18,113 DEBUG HtmlPageParserBase:235 - Column [columnId=149, columnistId=148, date=Sun Jun 02 12:14:18 PST 15, hyperlink=http://fanatik.ekolay.net/Futbol-Keyfinize-bakin_6_YazarDetay_171664_21.htm, sequence=1, summary=Bernabeu'da toplam değerleri yaklaşık 1 milyar Euro'yu bulan iki dev kadro kozl..., title=Keyfinize bakın]
+12:14:18,122 DEBUG HtmlPageParserBase:235 - Column [columnId=150, columnistId=149, date=Thu Jun 01 12:14:18 PST 13, hyperlink=http://fanatik.ekolay.net/Galatasaray-Kiz-takimi_6_YazarDetay_171357_27.htm, sequence=1, summary=Üstünel'in transferlerinin sahada 'erkek gibi oynayan' Neill hariç, sadece adla..., title=Kız takımı!]
+12:14:18,131 DEBUG HtmlPageParserBase:235 - Column [columnId=151, columnistId=150, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Demek-ki-oluyormus_6_YazarDetay_175250_29.htm, sequence=1, summary=Sıkıntıları hatırlatmanın da, o sıkıntılara yapılan yorumları gündeme taşımanın..., title=Demek ki oluyormuş]
+12:14:18,139 DEBUG HtmlPageParserBase:235 - Column [columnId=152, columnistId=151, date=Wed Jun 02 12:14:18 PST 34, hyperlink=http://fanatik.ekolay.net/Basketbol-Haddini-bil-Omer-Asik_6_YazarDetay_174251_4.htm, sequence=1, summary=Hem adamla sözleşme imzalıyorsunuz, sonra 'o sözleşmenin hükmü yok' deyip, ödem..., title=Haddini bil Ömer Aşık!]
+12:14:18,148 DEBUG HtmlPageParserBase:235 - Column [columnId=153, columnistId=152, date=Fri Jun 01 12:14:18 PST 8, hyperlink=http://fanatik.ekolay.net/Galatasaray-Kopje-koffie-Frank_6_YazarDetay_174797_22.htm, sequence=1, summary=Bu Hollandalılar bir alem; Mesela, kahve içmeden güne asla merhaba demezler. Pa..., title=Kopje koffie Frank?]
+12:14:18,157 DEBUG HtmlPageParserBase:235 - Column [columnId=154, columnistId=153, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Ziraat-Turkiye-Kupasi-Sanliurfa-izlenimleri_6_YazarDetay_175227_36.htm, sequence=1, summary=Dünün ilk şampiyonu Aykut Kocaman'dı., title=Şanlıurfa izlenimleri]
+12:14:18,166 DEBUG HtmlPageParserBase:235 - Column [columnId=155, columnistId=154, date=Fri May 29 12:14:18 PST 33, hyperlink=http://fanatik.ekolay.net/Fenerbahce-SSKyi-bekliyoruz_6_YazarDetay_12242_44.htm, sequence=1, summary=Maç öncesi her şey tek kelimeyle mükemmeldi. Milano'nun en popüler meydanı Duom..., title=SSK'yı bekliyoruz!]
+12:14:18,175 DEBUG HtmlPageParserBase:235 - Column [columnId=156, columnistId=155, date=Mon Jun 02 12:14:18 PST 10, hyperlink=http://fanatik.ekolay.net/Besiktas-Baba-Recep-cok-yasa_6_YazarDetay_175028_13.htm, sequence=1, summary=Babamın hayattaki en büyük hatasının Beşiktaş ailesinden çok sevmesi olduğunu A..., title=Baba Recep çok yaşa]
+12:14:18,183 DEBUG HtmlPageParserBase:235 - Column [columnId=157, columnistId=156, date=Sun Jun 02 12:14:18 PST 15, hyperlink=http://fanatik.ekolay.net/Galatasaray-Gercekler-aci(d)tir_6_YazarDetay_171626_28.htm, sequence=1, summary=Galatasaray Spor Kulübü'nün resmi internet sitesi hem benim, hem de çalışma ark..., title=Gerçekler acı(d)tır]
+12:14:18,193 DEBUG HtmlPageParserBase:235 - Column [columnId=158, columnistId=157, date=Wed Jun 02 12:14:18 PST 6, hyperlink=http://fanatik.ekolay.net/Galatasaray-Arda-gider,-Gio-ve-Caner-kalir_6_YazarDetay_174442_37.htm, sequence=1, summary=Galatasaray'ın Frank Rijkaard yönetiminde 'oynamak istediği' futbolun temelini ..., title=Arda gider, Gio ve Caner kalır!]
+12:14:18,202 DEBUG HtmlPageParserBase:235 - Column [columnId=159, columnistId=158, date=Tue Jun 02 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Diger-Sporlar-Silivriye-can-verin_6_YazarDetay_171038_20.htm, sequence=1, summary=9 Eylül 2009'da İstanbul'u vuran sel felaketi, ençok Avrupa Karma Futbol Şampiy..., title=Silivri'ye can verin]
+12:14:18,211 DEBUG HtmlPageParserBase:235 - Column [columnId=160, columnistId=159, date=Sat Jun 01 12:14:18 PST 9, hyperlink=http://fanatik.ekolay.net/Bursaspor-Bursaspor-stresini-de-yenmeli_6_YazarDetay_170813_57.htm, sequence=1, summary=Geçen haftaki İstanbul Belediye maçından sonra Bursa için dünkü mücadelenin zor..., title=Bursaspor stresini de yenmeli]
+12:14:18,219 DEBUG HtmlPageParserBase:235 - Column [columnId=161, columnistId=160, date=Fri Jun 02 12:14:18 PST 19, hyperlink=http://fanatik.ekolay.net/Fenerbahce-En-cok-isteyen-taraftardi_6_YazarDetay_167943_38.htm, sequence=1, summary=Şampiyonluğa oynayan Fenerbahçe'yi ilk kez seyredenler bu maç için sadece şunu ..., title=En çok isteyen taraftardı]
+12:14:18,230 DEBUG HtmlPageParserBase:235 - Column [columnId=162, columnistId=161, date=Fri Jun 01 12:14:18 PST 31, hyperlink=http://fanatik.ekolay.net/Fenerbahce-Onlar-simdi-cok-mesgul_6_YazarDetay_128835_23.htm, sequence=1, summary=Bütün ‘kurum´larda, patronlar genelde işleri profesyonellere bırakır. Başa geti..., title=Onlar şimdi çok meşgul!]
+12:14:18,239 DEBUG HtmlPageParserBase:235 - Column [columnId=163, columnistId=162, date=Sun May 31 12:14:18 PST 11, hyperlink=http://fanatik.ekolay.net/Super-Lig-Komisyoncu-Vural_6_YazarDetay_116635_65.htm, sequence=1, summary=Güzel şehir, Eskişehir. Şehir planlamasıyla, Anadolu ve Osmangazi Üniversiteler..., title=Komisyoncu Vural!]
+12:14:18,248 DEBUG HtmlPageParserBase:235 - Column [columnId=164, columnistId=163, date=Wed Jun 02 12:14:18 PST 34, hyperlink=http://fanatik.ekolay.net/Trabzonspor-Neden-Urfa_6_YazarDetay_174244_117.htm, sequence=1, summary=Dolayısıyla, Akyazı Projesi ile Urfa Arena birbirinin ikiz kardeşidir., title=Neden Urfa?]
+12:14:18,256 DEBUG HtmlPageParserBase:235 - Column [columnId=165, columnistId=164, date=Fri Jun 01 12:14:18 PST 31, hyperlink=http://fanatik.ekolay.net/Fenerbahce-Rakamlarin-otesi_6_YazarDetay_126649_12.htm, sequence=1, summary=Haberlere, Deloitte´nin Futbol Para Ligi değerlendirmesine girmeyi başaran ilk ..., title=Rakamların ötesi]
+12:14:18,265 DEBUG HtmlPageParserBase:235 - Column [columnId=166, columnistId=165, date=Sun Jun 02 12:14:18 PST 26, hyperlink=http://fanatik.ekolay.net/Besiktas-Hayirli-olsun_6_YazarDetay_173076_43.htm, sequence=1, summary=Eğer kazanmak için her yol mübahsa şimdiden tebrikler... Daha 1 sene olmadı bu ..., title=Hayırlı olsun]
+12:14:18,274 DEBUG HtmlPageParserBase:235 - Column [columnId=167, columnistId=166, date=Tue Jun 01 12:14:18 PST 6, hyperlink=http://fanatik.ekolay.net/Basketbol-80-dakika-once-alinmali_6_YazarDetay_147445_103.htm, sequence=1, summary=Cathine adlı yasaklı madde kullandığı tespit edilen Kerem Gönlüm ile birlikte M..., title=80 dakika önce alınmalı]
+12:14:18,283 DEBUG HtmlPageParserBase:235 - Column [columnId=168, columnistId=167, date=Mon May 31 12:14:18 PST 6, hyperlink=http://fanatik.ekolay.net/Galatasaray-Bayram-yakin_6_YazarDetay_120539_8.htm, sequence=1, summary=Galatasaray´a geldiği ilk dönemde ‘Panter´ gibiydi Baros... Son dört haftada is..., title=Bayram yakın!]
+12:14:18,284  INFO ParserVariables:72 - END PARSING Fanatik
+12:14:18,284  INFO ParserVariables:73 - _____________________________________________________________________
+12:14:18,284  INFO ParserVariables:63 - START PARSING Vatan
+12:14:18,285  INFO ParserVariables:64 - _____________________________________________________________________
+12:14:20,286 DEBUG HtmlPageParserBase:235 - Column [columnId=169, columnistId=168, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304213&Categoryid=4&wid=58, sequence=1, summary=, title=Pisuvar gerginliği...]
+12:14:20,293 DEBUG HtmlPageParserBase:235 - Column [columnId=170, columnistId=169, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304220&Categoryid=4&wid=2, sequence=1, summary=, title=Gül veto eder mi?]
+12:14:20,301 DEBUG HtmlPageParserBase:235 - Column [columnId=171, columnistId=170, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304242&Categoryid=4&wid=4, sequence=1, summary=, title=Kampanyadan önce anket lâzım!]
+12:14:20,310 DEBUG HtmlPageParserBase:235 - Column [columnId=172, columnistId=171, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304247&Categoryid=4&wid=5, sequence=1, summary=, title=Hitler bahane...]
+12:14:20,322 DEBUG HtmlPageParserBase:235 - Column [columnId=173, columnistId=172, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304232&Categoryid=4&wid=136, sequence=1, summary=, title=12 Eylül'ün üzerindeki dokunulmazlık kalktı...]
+12:14:20,328 DEBUG HtmlPageParserBase:235 - Column [columnId=174, columnistId=173, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304254&Categoryid=4&wid=153, sequence=1, summary=, title=TOBB Genel Kuruluna siyasilerden kırmızı kart]
+12:14:20,337 DEBUG HtmlPageParserBase:235 - Column [columnId=175, columnistId=174, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304225&Categoryid=4&wid=139, sequence=1, summary=, title=İşi olmayana çok cazip bir iş önerisi]
+12:14:20,347 DEBUG HtmlPageParserBase:235 - Column [columnId=176, columnistId=175, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304227&Categoryid=4&wid=122, sequence=1, summary=, title=Big bangden Büyük İskendere evrenin çizgi tarihi]
+12:14:20,355 DEBUG HtmlPageParserBase:235 - Column [columnId=177, columnistId=176, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304233&Categoryid=4&wid=11, sequence=1, summary=, title=Ezberler bozuluyor...]
+12:14:20,363 DEBUG HtmlPageParserBase:235 - Column [columnId=178, columnistId=177, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304234&Categoryid=4&wid=1, sequence=1, summary=, title=Tartışmanın tartışması tartışma çıkarmamalı..]
+12:14:20,371 DEBUG HtmlPageParserBase:235 - Column [columnId=179, columnistId=178, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304240&Categoryid=4&wid=73, sequence=1, summary=, title=Ufuk Uras haklı mı?]
+12:14:20,379 DEBUG HtmlPageParserBase:235 - Column [columnId=180, columnistId=179, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304246&Categoryid=4&wid=166, sequence=1, summary=, title=Lozan kitabı]
+12:14:20,390 DEBUG HtmlPageParserBase:235 - Column [columnId=181, columnistId=180, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304241&Categoryid=4&wid=102, sequence=1, summary=, title=Kaçmaz aklandı... Peki atılan onca çamur ne olacak?]
+12:14:20,398 DEBUG HtmlPageParserBase:235 - Column [columnId=182, columnistId=181, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304221&Categoryid=4&wid=31, sequence=1, summary=, title=Allahın affı, her şeyin üstündedir]
+12:14:20,407 DEBUG HtmlPageParserBase:235 - Column [columnId=183, columnistId=182, date=Fri May 07 00:00:00 PDT 2010, hyperlink=http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=304244&Categoryid=4&wid=46, sequence=1, summary=, title=Milli Şef]
+12:14:20,408  INFO ParserVariables:72 - END PARSING Vatan
+12:14:20,408  INFO ParserVariables:73 - _____________________________________________________________________
+12:15:03,785  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of org.primefaces.resource.ResourceHolderImpl
+12:15:03,788  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of com.mycolumnist.view.MyColumnistHome
+12:16:41,563  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of org.primefaces.resource.ResourceHolderImpl
+12:16:41,578  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of com.mycolumnist.view.MyColumnistHome
+12:16:43,501  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of org.primefaces.resource.ResourceHolderImpl
+12:16:43,503  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of com.mycolumnist.view.MyColumnistHome
+12:17:25,393  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of org.primefaces.resource.ResourceHolderImpl
+12:17:25,394  INFO TomcatAnnotationLifecycleProvider:46 - Creating instance of com.mycolumnist.view.MyColumnistHome

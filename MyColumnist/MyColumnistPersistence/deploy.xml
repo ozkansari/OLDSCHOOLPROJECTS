@@ -1,0 +1,24 @@
+<project name="MyColumnistPersistence" basedir="." default="deploy">
+
+	<property name="deploy.dir" value="C:\Users\ozkansari\" />
+	<property name="product.name" value="MyColumnistPersistence" />
+	<property name="build.dir" value="bin" />
+	<property name="jar.name" value="${product.name}.jar" />
+	<property file="./src/version.properties" />
+ 
+	<target name="deploy" description="Create deployment">
+		<echo>Creating ${deploy.dir}/${jar.name}</echo>
+		<echo>!! Please ensure project compiled successfully !!</echo>
+		<mkdir dir="${deploy.dir}" />
+
+		<jar jarfile="${deploy.dir}/${jar.name}">
+			<fileset dir="${build.dir}">
+				<include name="**/*" />
+			</fileset>
+			<manifest>
+				<attribute name="Implementation-Title" value="${product.name}" />
+				<attribute name="Implementation-Version" value="${version}" />
+			</manifest>
+		</jar>
+	</target>
+</project>

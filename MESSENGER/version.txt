@@ -1,0 +1,5 @@
+Görsel düzeltmeler
+	MessengerJFrame
+Dosya gönderimi ile ilgili düzeltmeler
+	Dosya gönderirken % olarak gönderim takibi eklendi
+Server için arayüz yapýldý.

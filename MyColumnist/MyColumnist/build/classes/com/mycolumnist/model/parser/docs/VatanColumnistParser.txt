@@ -1,0 +1,25 @@
+ELEMENT DOM TREE TO BE PARSED:
+
+		<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+			<b>
+				<font color="#2760A9">
+					<br> 
+	-->				<a href="HYPERLINK" target="_blank">
+						<img src="COLUMNIST_IMAGE_SRC" border="0" align="left" hspace="4" vspace="4" width="50" height="50">
+					</a>
+	-->				COLUMNIST_NAME
+				</font>
+			</b>
+			<font color="#919191"></font>
+			<br>
+			<font color="#919191"> 
+	-->			<font size="1">DATE_STRING</font> 
+				<a href="/root.vatan?exec=yazareskiyazilar&wid=2">
+					<font size="1">[Tum Yazilari]</font>
+				</a>
+				<br> 
+				<a href="http://haber.gazetevatan.com/haberdetay.asp?tarih=11.11.2007&Newsid=299058&Categoryid=4&wid=2" target="_blank">
+	-->				<i><b>TITLE</b></i>
+				</a> 
+		    </font> 
+		</font>	

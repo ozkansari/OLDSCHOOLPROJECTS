@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<property name="connection.url">jdbc:mysql://localhost:3307/ozkansari2?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</property>
+	<property name="connection.username">ozkansari2</property>
+	<property name="connection.password">2231559</property>
+	<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+ 	<property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+ 	<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+ 
+    <!--  thread is the short name for
+      org.hibernate.context.ThreadLocalSessionContext
+      and let Hibernate bind the session automatically to the thread
+    -->
+    <property name="current_session_context_class">thread</property>
+
+    <!-- this will show us all sql statements -->
+    <property name="hibernate.show_sql">false</property>
+	<property name="format_sql">false</property>
+	
+	<!-- mapping files -->
+	<!-- <mapping package="test.animals"/> -->
+
+	<mapping resource="com/mycolumnist/model/persistence/entity/Column.hbm.xml"/>
+	<mapping resource="com/mycolumnist/model/persistence/entity/Columnist.hbm.xml"/>
+	<mapping resource="com/mycolumnist/model/persistence/entity/Newspaper.hbm.xml"/>
+<!-- 
+     <mapping class="com.mycolumnist.model.persistence.entity.Column" />
+     <mapping class="com.mycolumnist.model.persistence.entity.Columnist"/>
+     <mapping class="com.mycolumnist.model.persistence.entity.Newspaper"/>
+ -->
+
+</session-factory>
+</hibernate-configuration>

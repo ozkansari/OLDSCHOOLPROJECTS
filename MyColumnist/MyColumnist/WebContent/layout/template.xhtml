@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.prime.com.tr/ui"
+      xmlns:c="http://java.sun.com/jstl/core"
+      contentType="text/html" charset="UTF-8" >
+	
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<link rel="shortcut icon" href="#{request.contextPath}/favicon.ico" />
+			<link href="style/common.css" type="text/css" rel="stylesheet" />
+			<link href="style/newsportal/css/style.css" type="text/css" rel="stylesheet" />
+					
+			<ui:insert name="head" />
+			
+		</head>
+		
+		<body>
+				
+			<div id="page_wrapper">
+			
+			  <div id="header_wrapper">
+			  
+			    <div id="header">
+			      <a href="#{request.contextPath}" title="#{msg.catchword}"> 
+			      	<c:choose> 
+					  <c:when test="#{request.contextPath == 'yazarkeyfi.com' || request.contextPath == 'www.yazarkeyfi.com'}" > 
+					    <p:graphicImage value="/images/yazarkeyfi_title.png" style="border:0;" />  
+					  </c:when> 
+					  <c:otherwise> 
+					    <p:graphicImage value="/images/mycolumnist_title.png" style="border:0;"/> 
+					  </c:otherwise> 
+					</c:choose>
+			      	<p:graphicImage value="/images/pencil_mini.png" style="border:0;position:relative;right:50px;" /> 
+			      </a>
+			    </div>
+			    
+			    <div id="navcontainer" >
+			    
+			    	<div style="text-align:right;padding-bottom:5px; margin-right:5px;">
+				    	<h:form id="searchForm">
+							<h:inputText value="#{myColumnistHome.searchText}" id="searchInput" >
+								<p:watermark value="Ara"/>
+							</h:inputText>
+							<h:commandButton action="#{myColumnistHome.searchCommand}" image="/images/search_btn.gif"/>
+						</h:form>
+					</div>
+			    </div>
+			    
+			  </div>
+			  
+			  <div id="content" style="margin:20px 10px 0;min-height:400px;width:90%;display:none;">
+		
+				<ui:insert name="body" />
+				
+			  </div>
+			
+		  	  <div id="footer">
+		  		<h:outputText value="#{msg.versionInfo}" />
+		  	  </div>
+			
+ 			</div>
+
+		</body>
+	</html>
+	
+</f:view>

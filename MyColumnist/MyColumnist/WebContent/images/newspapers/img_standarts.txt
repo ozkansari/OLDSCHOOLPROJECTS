@@ -1,0 +1,3 @@
+<GAZETE>_logo.png : height:41px
+
+<GAZETE>_mini_ logo.gif : height: 79px, width:79px

@@ -1,0 +1,28 @@
+body {
+	font-family: Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+div.clear {
+	clear: both;
+}
+
+.resultHeader {
+	font-size: 20px;
+}
+
+.resultBox {
+	float: left;
+	width: 250px;
+	padding: 10px;
+	margin: 3px 10px 3px 10px;
+	text-align: center;
+	color: white;
+}
+
+.smallBox {
+	margin: 1px;
+	text-align: center;
+	color: white;
+}

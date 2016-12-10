@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:t="http://myfaces.apache.org/tomahawk" 
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions" 
+	contentType="text/html"	
+	charset="UTF-8">
+
+			<!-- main -->
+			<div id="main">
+			
+			    <!-- Header -->
+			    <div id="header">
+			        <h1 id="logo"><a href="./" title="[Go to homepage]"><span></span>FutureMag</a></h1>
+			        <hr class="noscreen" />          
+			    </div>
+			    <!-- /header -->
+			
+			 	<!-- Tray -->
+			    <div id="tray">
+			
+			        <ul class="box">
+			            <li id="tray-active"><a href="#">Homepage</a></li> <!-- Active page -->
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			            <li><a href="#">Category</a></li>
+			        </ul>
+			    	<hr class="noscreen" />
+			    </div>
+			    <!-- /tray -->
+			
+				<!-- Columns -->
+    			<div id="cols" class="box">
+
+        			<!-- content -->
+        			<div id="content">
+        			
+        				<div id="content-left">
+        					<ui:insert name="bodyLeft">Default content</ui:insert>
+        				</div>
+        				
+        				<div id="content-right">
+        					<ui:insert name="bodyRight">Default content</ui:insert>
+        				</div>
+        				
+        			</div>
+        			<!-- content -->
+	
+        			<!-- Aside -->
+			        <div id="aside">
+			
+			            <div id="aside-top"></div>
+			            
+			            <!-- Categories -->
+			            <div class="padding">
+			                <h4 class="nom">Categories:</h4>
+			            </div> <!-- /padding -->
+			            
+			            <ul class="nav">
+			                <li id="nav-active"><a href="#">Active category</a> <!-- Active -->
+			                    <ul>
+			                        <li><a href="#">Subcategory</a></li>
+			                        <li><a href="#">Subcategory</a></li>
+			                        <li><a href="#">Subcategory</a></li>
+			                        <li><a href="#">Subcategory</a></li>
+			                        <li><a href="#">Subcategory</a></li>
+			                    </ul>
+			                </li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			                <li><a href="#">Some category</a></li>
+			            </ul>
+			                
+			            <!-- RSS feeds -->
+			            <div class="padding">
+			
+			                <h4 class="margin">RSS feeds:</h4>
+			                
+			                <p class="nom">
+			                    <a href="#" class="rss">Articles</a><br />
+			                    <a href="#" class="rss">Comments</a>
+			                </p>
+			                
+			                <h4 class="margin">Search:</h4>
+			
+			                <form action="#" method="get">
+			                    <div id="search" class="box">
+			                        <input type="text" size="20" id="search-input" /><input type="submit" id="search-submit" value="Search" />
+			                    </div> <!-- /search -->
+			                </form>
+			
+			            </div> <!-- /padding -->
+			            
+			        <hr class="noscreen" />          
+			        </div> <!-- /aside -->
+			        
+			        <div id="aside-bottom"></div>
+
+        		</div>
+        		<!-- columns -->
+        		
+        		<!-- Footer -->
+			    <div id="footer">
+			
+			        <!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->
+			        <p class="f-right"><a href="http://www.nuviotemplates.com/">Free web templates</a> presented by <a href="http://www.qartin.cz/">QARTIN</a> &ndash; Our tip: <a href="http://last-minute.invia.sk" title="Last Minute">Last Minute</a> <a href="http://wycieczki.invia.pl" title="Wczasy">Wczasy</a></p>
+			        <!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->
+			
+			        <p>Copyright &copy;&nbsp;2008 <strong><a href="#">Your Name</a></strong>, All Rights Reserved &reg;</p>
+			
+			    </div> 
+			    <!-- /footer -->
+        		
+        	</div>
+        	<!-- main -->
+
+</f:view>

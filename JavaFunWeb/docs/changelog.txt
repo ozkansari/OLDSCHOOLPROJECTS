@@ -1,0 +1,17 @@
+-- ***************************************************************
+   [ozkans - 20110409] 
+-- ***************************************************************
+1-) A Maven based project using JSF2 & Richfaces 4 & JPA+Hibernate technologies has been created
+2-) Mysql database and basic table structure has been constructed
+3-) Database entities and DAO Classes has been created
+4-) slf4j with log4j Configuration
+5-) Bundle Messages (properties file) have been configured
+6-) A simple css template applied
+
+-- ***************************************************************
+   [ozkans - 20110412] 
+-- ***************************************************************
+1-) Tomahawk library is added to the dependencies 
+2-) Organized company template and renamed it to oceanfresh; links are working now
+3-) Added 8 new templates mag1,mag2,...,mag8
+4-) Dynamic Template Selection is possible for 9 available templates

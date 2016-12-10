@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.mycolumnist.model.persistence.entity">
+	<class name="Columnist" table="columnist_table">
+		<id name="id" column="columnist_id" type="long"
+			unsaved-value="null">
+			<generator class="native" />
+		</id>
+		
+		<property name="newspaperName" column="newspaper" type="string"
+			not-null="true" length="64" />
+			
+		<many-to-one name="newspaper" not-null="false" column="newspaper_id" update="true" insert="true"
+			class="com.mycolumnist.model.persistence.entity.Newspaper"
+			foreign-key="COLUMNIST_NEWSPAPER_ID_FK"
+			lazy="false"/>
+		
+		<property name="name" column="name" type="string"
+			not-null="true" length="128" />	
+		
+		<property name="nameTag" column="name_tag" type="string"
+			not-null="true" length="128" />	
+			
+		<property name="imageSrc" column="image_src" type="string"
+			not-null="false" length="256" />	
+				
+		<one-to-one name="latestColumn" lazy="false"
+			class="com.mycolumnist.model.persistence.entity.Column" constrained="false"
+			foreign-key="COLUMNIST_COLUMN_ID_FK" />
+			
+		<property name="category" column="category" type="string"
+			not-null="true" length="64" />			
+												
+	</class>
+</hibernate-mapping>

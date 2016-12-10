@@ -1,0 +1,86 @@
+______________________________________________________________________
+
+TO DO & BUGS
+______________________________________________________________________
+
+
+PROGRAMIN ÇALIÞMASI ÝLE ÝLGÝLÝ PROBLEMLER
+-------------------------------------------------
+
+*-) Dosya Gönderme: Þu anki hali karþý tarafa dosyanýn kaydedileceði [Önem: 10]
+
+	- Dosyanýn gönderiminin % olarak gösteriminde cancel tuþu þu an fonksiyon görmüyor
+	- Dosya gönderiminde hata olursa uyar
+	? Dosya transferi thread mi olmalý ? Aksi halde dosya büyükse program dosyanýn gönderimini bekler mi??? (SANIRIM HAYIR)
+
+*-) Chat dialog'da bazý sorunlar var. [Önem: 5]
+
+
+PROGRAM BÝTTÝKTEN SONRA YAPILMASI GEREKENLER
+-------------------------------------------------
+
+*-) Görsel Düzeltmeler [Önem: 1]
+
+	- "ChatDialogJFrame" chat ekraný
+	
+	- Programdaki iconlar, resimler, JMenuItems
+
+*-) Source code client ve server olarak iki parçaya ayrýlmalý. (deployment için) [Önem: 2]
+
+*-) Program localhostda çalýþacak þekilde ayarlý, server baþlangýcýnda adres ve port sorulmalý. [Önem: 4]
+
+______________________________________________________________________
+
+DONE & ALREADY FIXED
+______________________________________________________________________
+
+(OK) Program localhostda çalýþacak þekilde ayarlý 
+
+	(OK) login ekranýnda baðlanýlacak server sorulmalý 
+
+(OK) Clientlardan birisi kapanýnca server çýldýrýyor.
+
+(OK) Server hatasý ....
+
+	(OK) Server kapanýnca, clientlarýn baðlantýsýný kes ve login ekranýna uyarý ile dön 
+	(OK) Serverla baðlantý kurulamýyorsa, Login ekranýnda uyarý ver ve baðlanmaya çalýþmasýna izin verme.
+
+(OK) Client açýlýnca ...
+
+	(OK) Client'ý online user listesine ekleyip, tüm herkesse online duruma geçtiðini haber vermeli.
+
+(OK) Client kapanýnca ...
+
+	(OK) Client'ý online user listesinden çýkarýp, tüm herkesse offline duruma geçtiðini haber vermeli. offlien olan client kapatýlmalý.
+	(OK) A ile B arasýnda chat sýrasýnda, A nýn baðlantýsý koparsa, B'nin ChatJFrame ekranýna uyarý gitmeli, mesaj gönderme disable edilmeli. 
+	(OK) Bir client kapandýðýnda Clientý listeden çýkarýp, tüm herkese offline duruma geçtiðini haber verilmeli
+
+(OK)  Chat Dialog ile ilgili sorunlar ....
+
+	(OK) A ile B arasýnda chat dialogu var. A chatJframe ekranýný kapatýnca, B'den A'ya gönderilen mesajlar ulaþýlýyor ama yeni bir chatJframe dialog oluþturulup orada gösterilemiyor.
+	     Chat dialogun kapattýðýnda sorun çýkýyor. Dialog kapatýlýnca listeden çýkarýlmalý.	
+	(OK) A ile B arasýnda chat dialogu açýksa, yeni bir chat dialogu açma giriþiminde mevcut olan kullanýlmalý, yeni bir tane açýlmamalý. [Önem: 9]
+	(OK) Clientýn ismine tek týklayýnca chat ekraný açýlýyor, çift týklayýnca açýlmalý. (Mouse Adapter yapmak lazým) [Önem: 5]
+
+(OK) User list ile ilgili sorunlar ....
+
+	(OK) Userýn kendisi JTree listesinde görünmemeli 
+	(OK) JTree olarak gösterilen user list baþta kapalý durumda geliyor, açýk halde gelmeli. Refresh edildiðinde de ayný problem 
+
+(OK) Dosya Gönderme
+
+	- Dosya gönderiminde "accept", "reject" ve "cancel" seçenekleri olmalý 
+	- Kullanýcý dosya transferini reddederse problem.. (Yapýldý.. Göndermeden önce kullanýcýdan OK mesajý bekleniyor )
+	- The file is being sent in chunks (i.e packet size of 1 MB ) So, file transfer works for all file sizes.
+	- Dosyanýn gönderimi % olarak gösteriliyor (JProgressMonitor )
+	
+(OK) Server için arayüz yapýldý. (MessageJTextArea, InformationJTextArea, clientList)
+
+(OK) Görsel Düzeltmeler
+
+	(OK) Login ekraný çýkýnca Focus olsun 
+	(OK) "LoginJFrame" login ekraný
+	(OK) "MessengerJFrame" main frame ekraný
+	(OK) Server ekraný
+
+

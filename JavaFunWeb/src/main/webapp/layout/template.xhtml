@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:t="http://myfaces.apache.org/tomahawk" 
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:a4j="http://richfaces.org/a4j"
+	contentType="text/html"	
+	charset="UTF-8">
+
+	<ui:include src="#{userSettings.currentTemplateFile}" />
+	
+	<style>
+		#styleSelectorForm {
+			position:fixed;top:10px;left:10px;
+			border: thin solid;
+			margin:10px;padding:10px;
+			text-align: left;
+		}
+		
+		#styleSelectorForm a {
+			text-decoration: none;
+			line-height:21px;
+			font-size:12px;
+			font-weight:bold;
+		}
+
+	</style>
+	
+	<h:form id="styleSelectorForm" >
+		<h:outputText value="Style" style="font-size:20px;line-height:40px;font-family:Verdana,Arial" />
+		<hr/>
+		<h:panelGrid columns="1" id="styleSelectorTable">
+
+			<h:commandLink value="Ocean Fresh">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/oceanfresh/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag1">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag1/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag2">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag2/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag3">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag3/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag4">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag4/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag5">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag5/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag6">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag6/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag7">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag7/template.xhtml" />
+			</h:commandLink>
+			
+			<h:commandLink value="Mag8">
+				<f:setPropertyActionListener target="#{userSettings.currentTemplateFile}" value="templates/mag/mag8/template.xhtml" />
+			</h:commandLink>
+		</h:panelGrid>
+	</h:form>
+	
+	
+</f:view>

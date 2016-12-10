@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.prime.com.tr/ui"
+      xmlns:c="http://java.sun.com/jstl/core"
+      template="layout/template.xhtml" >
+
+	<ui:define name="head">
+
+		<p:resources />
+		<f:loadBundle basename="MessageResources" var="msg"/>
+		<title> <h:outputText value="#{msg.mainTitle}" /> </title>
+
+		<f:verbatim>
+		
+		<script type="text/javascript" src="scripts/jquery.corners.min.js"> </script>
+		<script type="text/javascript" src="scripts/jquery-ui/js/jquery-ui-1.8.1.custom.min.js"> </script>
+		
+		<script type="text/javascript">
+		  jQuery(document).ready(function(){
+			jQuery('#tabs').tabs();
+			jQuery("#accordion").accordion();
+			jQuery('.resultBox').corners();
+		    jQuery('#content').fadeIn(2000);
+		  });
+  		</script>
+
+		<script type="text/javascript">
+			var lastIdShown = '';
+			function showNewspaper(id){
+
+				var jQuerytabs = jQuery('#tabs').tabs();
+				
+				jQuerytabs.tabs('select', 1 );
+				
+				if(lastIdShown != '' ){
+					jQuery('#n-'+lastIdShown).slideUp('slow', function() {
+						jQuery('#n-'+id).slideDown('slow');
+				    });
+				} else {
+					jQuery('#n-'+id).slideDown('slow');
+				}
+				lastIdShown = id;	
+				return false;
+			}
+		</script>
+		
+		<script type="text/javascript">
+			var tooltipStyle= { 
+		      width: 200,
+		      padding: 5,
+		      background: '#A2D959',
+		      color: 'black',
+		      textAlign: 'center',
+		      border: {
+		         width: 7,
+		         radius: 5,
+		         color: '#A2D959'
+		      },
+		      tip: 'topLeft',
+		      name: 'dark' 
+		   };
+		</script>
+		
+		<script>
+		function setSelectionEffect(obj) {
+			jQuery(".todaysPaperSelect").children().animate({opacity: 1}, 100, function() {
+				jQuery(obj).parent().animate({opacity: 0.25}, 1000);
+			});
+			
+		}
+		</script>
+	
+		<link type="text/css" href="scripts/jquery-ui/css/redmond/jquery-ui-1.8.1.custom.css" rel="stylesheet" />	
+		
+		<style>
+
+		#panelGrid td {
+			vertical-align: text-top;
+		}
+		
+		.yui-skin-sam .yui-dt table {
+			border: 0px;
+		}
+		
+		.yui-skin-sam .yui-dt th {
+			border: 0px;
+		}
+		
+		.yui-skin-sam .yui-dt td {
+			border: 0px;
+		}
+		
+		.yui-skin-sam .yui-dt tr.yui-dt-first td {
+			border: 0px;
+		}
+		
+		/* WORKAROUND : p:lightBox iframe problem SABAH background becomes black */
+		#cboxIframe {
+			background-color: white;
+		}
+		
+		</style>
+		
+		</f:verbatim>
+	</ui:define>
+
+	<ui:define name="body">
+
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-newspaper"> <h:outputText value="#{msg.selectNewspaper}"/> </a></li>
+				<li><a href="#tabs-columns"> <h:outputText value="#{msg.columnsOfToday}"/> </a></li>
+				<li><a href="#tabs-search"> <h:outputText value="#{msg.search}"/> </a></li>
+				<li><a href="#tabs-columnist"> <h:outputText value="#{msg.selectColumnist}"/> </a></li>
+			</ul>
+			
+			<div id="tabs-newspaper">
+				<h:form>
+					<p:accordionPanel id="newspaperAccordion" speed="0.4" width="100px">
+						<c:forEach items="#{myColumnistHome.newspapers}" var="paper" varStatus="paperStatus">
+							<p:tab title="#{paper.name}">
+								<div style="height: auto;display: block;overflow: hidden;padding:10px;">
+								<c:forEach items="#{paper.columnists}" var="columnist" varStatus="columnistStatus">
+									<div style="background-color:#6CBF19;padding:5px" class="resultBox">
+										<h:commandLink value="#{columnist.name}" title="TIKLA" style="font-weight:bold;" action="#{myColumnistHome.refreshSelectedColumns}" update="mainTabView">
+											<f:param name="columnistIdSelected" value="#{columnist.id}"/>  
+										</h:commandLink> 
+									</div>
+				          		</c:forEach>
+				          		</div>
+							</p:tab>
+						</c:forEach>
+					</p:accordionPanel>
+				</h:form>
+			</div>
+			
+			<div id="tabs-columns">
+
+				<div style="margin-top:30px;margin-bottom:10px;">
+					<h:form id="todaysColumnistForm">
+					<c:forEach items="#{myColumnistHome.newspaperEnumList}" var="paper" varStatus="i">
+						<span style="padding:10px;margin:5px;background-color:grey;" class="todaysPaperSelect">
+							<h:commandLink value="#{paper.name}" style="font-weight:bold;" onclick="showNewspaper('#{paper.name}');return false;"> </h:commandLink>
+						</span>
+					</c:forEach>
+					</h:form>
+				</div>
+			
+				<h:panelGrid columns="1" id="latestColumnsPanelGrid" style="font-size: 10px;" >
+				
+					<ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.sabahEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.sabahColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.haberturkEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.haberturkColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.zamanEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.zamanColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.takvimEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.takvimColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.fanatikEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.fanatikColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.postaEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.postaColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.vatanEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.vatanColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.radikalEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.radikalColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.milliyetEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.milliyetColumnList}"/>
+			        </ui:include>
+			        
+			        <ui:include src="/layout/columns.xhtml">
+			            <ui:param name="paper" value="#{myColumnistHome.hurriyetEnum}"/>
+			            <ui:param name="columnList" value="#{myColumnistHome.hurriyetColumnList}"/>
+			        </ui:include>
+				
+				</h:panelGrid>
+
+			</div>
+			
+			<div id="tabs-search">
+			
+				<h:form id="tabSearchForm">
+					<h:inputText value="#{myColumnistHome.searchText}" id="searchInput" >
+						<p:watermark value="Ara"/>
+					</h:inputText>
+					<h:commandButton action="#{myColumnistHome.searchCommand}" image="/images/search.png" />
+				</h:form>
+			 
+			 	<h:form id="columnistSearchResultForm" rendered="#{not empty myColumnistHome.columnistSearchResult}">
+
+					<h2><h:outputText value="YAZARLAR" styleclass="resultHeader"/></h2> <div class="clear"></div>
+					<c:forEach items="#{myColumnistHome.columnistSearchResult}" var="columnistResult" varStatus="columnistResultStatus">
+						<div style="background-color:#6CBF19;padding:5px"  class="resultBox">
+							<h:commandLink target="_self" value="#{columnistResult.name}" title="TIKLA" style="font-weight:bold;" action="#{myColumnistHome.refreshSelectedColumns}" update="mainTabView">
+								<f:param name="columnistIdSelected" value="#{columnistResult.id}"/>  
+							</h:commandLink> 
+						</div>
+		          	</c:forEach>
+					
+					<br></br>
+				
+					<h2><h:outputText value="YAZILAR" styleClass="resultHeader"/></h2> <div class="clear"></div>
+					<c:forEach items="#{myColumnistHome.columnSearchResult}" var="column" varStatus="columnStatus">
+						<div style="background-color:#6CBF19;padding:5px" class="resultBox">
+							<h:outputText value="#{column.columnist.name}" />
+							<br></br>
+							<p:lightBox iframe="true" width="60%" height="80%" opacity="0.6" speed="500" overlayClose="true" >
+								<h:outputLink value="#{column.hyperlink}" title="#{column.columnist.nameFullyCapitalized} - #{column.dateTurkishStyleShortDateFormatted}">
+								 	<h:outputText value="#{column.title}"/>
+								</h:outputLink>
+							</p:lightBox>
+						</div>	
+		          	</c:forEach>
+		          	
+		          	<br></br>
+				</h:form>
+			</div>
+			
+			<div id="tabs-columnist">
+				<h:panelGrid columns="1" width="75%" rendered="#{not empty myColumnistHome.selectedColumnist}">
+				
+					<h:panelGrid columns="3">
+						<h:panelGroup>
+							<div>
+								<p:graphicImage value="#{myColumnistHome.selectedColumnist.imageSrc}" style="width:75px;height:100px;"></p:graphicImage>
+							</div>
+						</h:panelGroup>
+						
+						<h:panelGroup> </h:panelGroup>
+						
+						<h:panelGroup>
+							<div>
+								<h:outputText value="#{myColumnistHome.selectedColumnist.name}" /> <br></br>
+								<h:outputText value="#{myColumnistHome.selectedColumnist.newspaper.name}" />
+							</div>
+						</h:panelGroup>
+					</h:panelGrid>
+					
+					<h:panelGroup> <br></br> </h:panelGroup>
+					
+					<h:panelGroup>
+						<c:forEach items="#{myColumnistHome.selectedColumns}" var="column" varStatus="columnsStatus">
+							<p:lightBox iframe="true" width="60%" height="70%" opacity="0.6"
+								speed="500" overlayClose="true">
+								<h:outputLink value="#{column.hyperlink}"
+									title="#{column.columnist.nameFullyCapitalized} - #{column.dateTurkishStyleShortDateFormatted}">
+									<h:outputText value="#{column.title}" />
+								</h:outputLink>
+							</p:lightBox>
+							<h:outputText value="#{column.dateTurkishStyleShortDateFormatted}" />
+							<br></br>
+						</c:forEach>
+					</h:panelGroup>
+					
+				</h:panelGrid>
+			</div>
+			
+		</div>
+
+		<p:ajaxStatus style="height:16px">
+			<f:facet name="start">
+				<h:graphicImage value="/images/ajax-loader.gif" />
+			</f:facet>
+	
+			<f:facet name="complete">
+				<h:outputText value="" />
+			</f:facet>
+		</p:ajaxStatus>
+		
+		<div style="position: fixed;right: 55px;bottom: 13px;color:white;z-index:99;"> <h:outputText value="#{msg.today}" /> </div>
+		<p:stack icon="/images/stack/stack.png" id="paper_stack" widgetVar="stackVar">
+			<c:forEach items="#{myColumnistHome.newspaperEnumList}" var="paper" varStatus="i">
+				<p:stackItem label="#{paper.name}" icon="#{paper.stackLogo}" url="##{paper.name}" onclick="showNewspaper('#{paper.name}')"/>
+			</c:forEach>
+		</p:stack>
+
+	</ui:define>
+	
+</ui:composition>

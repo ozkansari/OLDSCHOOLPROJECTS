@@ -1,0 +1,1 @@
+java -classpath . -Djava.security.policy=java.policy Server

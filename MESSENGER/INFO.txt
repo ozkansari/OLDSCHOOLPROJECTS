@@ -1,0 +1,10 @@
+Programda iki temel kýsým var: Server ve Clientlar var
+
+Serverda 
+	- baðlantýlarý kabul eden bir "connectionHandle" threadi
+	- her bir client için bir "clientHandle" thredi 
+
+Clientlar birbirinin idsi ve ismi gibi bazý bilgileri biliyor ama adresini vs.. bilmiyor. 
+Tüm iletiþim server aracýlýðýyla yapýlýyor. (Aslýnda clientlar peer2peer iletiþim yapsaydý daha iyi olabilirdi)
+
+Tüm mesajlar "Message" tipinde bir class içinde taþýnýyor. Buna dosya transferi de dahil.

@@ -1,0 +1,29 @@
+<project name="MyColumnist" basedir="." default="deploy">
+
+	<property name="deploy.dir" value="C:\Users\ozkansari\" />
+	<property name="product.name" value="MyColumnist" />
+	<property name="build.dir" value="bin" />
+	<property name="jar.name" value="${product.name}.war" />
+
+	<target name="deploy" description="Create deployment">
+		<echo>Creating ${jar.name}</echo>
+		<echo>!! Please ensure project compiled successfully !!</echo>
+		<mkdir dir="${deploy.dir}" />
+
+		<war destfile="${deploy.dir}/${jar.name}"  webxml="WebContent/WEB-INF/web.xml">
+			
+			<fileset dir="WebContent"/>
+<!--	
+			<fileset dir="src"/>
+		  	<lib dir="thirdparty/libs">
+		    	<exclude name="jdbc1.jar"/>
+			</lib>
+-->		  
+			<classes dir="build\classes"/>
+		</war>
+		
+	
+	</target>
+</project>
+
+

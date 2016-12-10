@@ -1,0 +1,17 @@
+1-) By default, Tomcat uses ISO-8859-1 character encoding when decoding URLs 
+received from a browser. This can cause problems when Confluence's encoding 
+is UTF-8, and you are using international characters in attachment or page 
+names. Edit conf/server.xml and find the line where the Coyote HTTP Connector 
+is defined. 
+
+<Connector port="8080" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               redirectPort="8443" 
+               URIEncoding="UTF-8" />
+               
+<!-- Define an AJP 1.3 Connector on port 8009 -->
+<Connector port="8009" protocol="AJP/1.3" redirectPort="8443" URIEncoding="UTF-8"/>
+
+
+
+ 

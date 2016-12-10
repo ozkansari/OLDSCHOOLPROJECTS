@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.mycolumnist.model.persistence.entity">
+	<class name="Column" table="column_table">
+		<id name="id" column="column_id" type="long"
+			unsaved-value="null">
+			<generator class="native" />
+		</id>
+		
+		<many-to-one name="columnist" column="columnist_id"
+			lazy="false" class="com.mycolumnist.model.persistence.entity.Columnist"
+			not-null="true" foreign-key="COLUMN_COLUMNIST_ID_FK" />
+			
+		<property name="date" column="date" type="timestamp"
+			not-null="true" />
+
+		<property name="sequence" column="sequence" type="int"
+			not-null="true" />		
+			
+		<property name="title" column="title" type="string"
+			not-null="true" length="256" />			
+			
+		<property name="summary" column="summary" type="string"
+			not-null="true" length="1024" />	
+			
+		<property name="hyperlink" column="hyperlink" type="string"
+			not-null="true" length="256" />									
+			
+	</class>
+</hibernate-mapping>

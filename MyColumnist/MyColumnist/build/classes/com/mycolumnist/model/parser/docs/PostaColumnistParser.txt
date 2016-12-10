@@ -1,0 +1,20 @@
+<div class="yazarTumu">
+  <div class="eposta">
+    <a href="mailto:COLUMNIST_EMAIL">mabirand@e-kolay.net</a>
+  </div>
+  <a href="COLUMNIST_ALL_COLUMNS" class="name">
+    <strong>
+		<img src="COLUMNIST_IMAGE" alt="Mehmet Ali Birand" width="74" height="83" />
+		COLUMNIST_TITLE
+	</strong>
+  </a>
+  <p>
+    <a href="HYPERLINK">
+		<strong>
+			TITLE
+		</strong>
+    </a>
+    <em>DATE</em>
+  </p>
+  <div class="cls"></div>
+</div>

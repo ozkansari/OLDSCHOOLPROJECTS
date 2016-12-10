@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-9"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:t="http://myfaces.apache.org/tomahawk" 
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions" 
+	contentType="text/html"	
+	charset="UTF-8">
+
+	<html>
+
+		<h:head>
+			<meta http-equiv="content-type" content="text/xhtml; charset=UTF-8" />
+		    <meta http-equiv="content-language" content="en" />
+		    <meta name="robots" content="all,follow" />
+
+		    <meta name="description" content="..." />
+		    <meta name="keywords" content="..." />
+    
+			<f:loadBundle basename="MessageResources" var="msg" />
+			<title><ui:insert name="title"> </ui:insert> - #{msg.mainTitle} </title>
+			
+			<link rel="shortcut icon" href="#{request.contextPath}/layout/common/favicon.ico" />
+		    <link rel="stylesheet" media="screen,projection" type="text/css" href="#{request.contextPath}/layout/templates/mag/common/css/reset.css" />
+		    <link rel="stylesheet" media="screen,projection" type="text/css" href="#{request.contextPath}/layout/templates/mag/mag5/css/main.css" />
+		    <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="#{request.contextPath}/layout/templates/mag/common/css/main-msie.css" /><![endif]-->
+		    <link rel="stylesheet" media="screen,projection" type="text/css" href="#{request.contextPath}/layout/templates/mag/mag5/css/style.css" />
+		    <link rel="stylesheet" media="print" type="text/css" href="#{request.contextPath}/layout/templates/mag/common/css/print.css" />
+
+		    <ui:insert name="head"></ui:insert>
+		    
+		</h:head>
+		
+		<h:body>
+			
+			<f:subview id="footer">
+				<ui:include src="../common/template-body.xhtml" />
+			</f:subview>
+			
+		</h:body>
+	
+	</html>
+</f:view>
