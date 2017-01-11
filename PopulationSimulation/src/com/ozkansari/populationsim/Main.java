@@ -1,3 +1,4 @@
+package com.ozkansari.populationsim;
 /*********************************************************
  * NAME: Ozkan SARI 
  * STUDENT NUMBER: 220702042

@@ -1,3 +1,4 @@
+package com.ozkansari.populationsim;
 import java.awt.Color;
 import java.awt.Graphics;
 

@@ -1,3 +1,4 @@
+package com.ozkansari.populationsim;
 /**
  * StartMenu.java
  * 
